@@ -11,22 +11,22 @@ smell density (implementation smells) = (total implementation smells *1000)/tota
 ## Deliverables
 ---
 
-![01_Project](./info/01_Project.png)
+![01_Project](./deliverables/01_Project.png)
 
-![02_Commits](./info/02_Commits.png)
+![02_Commits](./deliverables/02_Commits.png)
 
-![03_SmellCount_Vs_CommitNo](./info/03_SmellCount_Vs_CommitNo.png)
+![03_SmellCount_Vs_CommitNo](./deliverables/03_SmellCount_Vs_CommitNo.png)
 
-![04_LOC_Vs_CommitNo](./info/04_LOC_Vs_CommitNo.png)
+![04_LOC_Vs_CommitNo](./deliverables/04_LOC_Vs_CommitNo.png)
 
-![05_ImplementationSmell_Vs_CommitNo](./info/05_ImplementationSmell_Vs_CommitNo.png)
+![05_ImplementationSmell_Vs_CommitNo](./deliverables/05_ImplementationSmell_Vs_CommitNo.png)
 
-![06_DesignSmell_Vs_CommitNo](./info/06_DesignSmell_Vs_CommitNo.png)
+![06_DesignSmell_Vs_CommitNo](./deliverables/06_DesignSmell_Vs_CommitNo.png)
 
-![07_ArchitectureSmell_Vs_CommitNo](./info/07_ArchitectureSmell_Vs_CommitNo.png)
+![07_ArchitectureSmell_Vs_CommitNo](./deliverables/07_ArchitectureSmell_Vs_CommitNo.png)
 
-![08_Commit_Vs_MaxAvgLOC](./info/08_Commit_Vs_MaxAvgLOC.png)
+![08_Commit_Vs_MaxAvgLOC](./deliverables/08_Commit_Vs_MaxAvgLOC.png)
 
-![09_Commit_Vs_MaxAvgLCOM](./info/09_Commit_Vs_MaxAvgLCOM.png)
+![09_Commit_Vs_MaxAvgLCOM](./deliverables/09_Commit_Vs_MaxAvgLCOM.png)
 
-![010_Commit_Vs_MaxAvgWMC](./info/010_Commit_Vs_MaxAvgWMC.png)
+![010_Commit_Vs_MaxAvgWMC](./deliverables/010_Commit_Vs_MaxAvgWMC.png)

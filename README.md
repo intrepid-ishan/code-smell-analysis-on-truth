@@ -1,5 +1,5 @@
 ## Expectations
----
+
 
 - Choose a well-known Java open-source project from GitHub.
 - Carry out a software design assessment for the project using DesigniteJava. You need to choose at least ten different commits spread across the project's life. It is expected that you choose these commits (based on their commit-time) almost equal distance with each other.
@@ -9,7 +9,7 @@ smell density (implementation smells) = (total implementation smells *1000)/tota
 - The assessment must include plots between commits (X-axis) and metrics (maximum and average metrics for the following metrics: LCOM, WMC, and class LOC) at Y-axis. Please note that you must not include -1 (especially with LCOM) in your max/average computation because it reflects the tool could not compute the metric for that class.
 
 ## Deliverables
----
+
 
 ![01_Project](./deliverables/01_Project.png)
 

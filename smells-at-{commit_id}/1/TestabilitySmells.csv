@@ -1,0 +1,16 @@
+Project Name,Package Name,Type Name,Testability Smell,Cause of the Smell
+truth,org.junit.contrib.truth,AbstractVerbTest,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: strings
+truth,org.junit.contrib.truth,ExampleTest,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ints
+truth,org.junit.contrib.truth,ExpectFailureTest.FailingExpect,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+truth,org.junit.contrib.truth,Truth,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: THROW_ASSERTION_ERROR; THROW_ASSUMPTION_ERROR; ASSERT; ASSUME
+truth,org.junit.contrib.truth,AbstractVerb.DelegatedVerb,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+truth,org.junit.contrib.truth.codegen,IteratingWrapperClassBuilderTest,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: FOO
+truth,org.junit.contrib.truth.codegen,IteratingWrapperClassBuilderTest.FooSubject,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+truth,org.junit.contrib.truth.codegen,IteratingWrapperClassBuilderTest.FooSubject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: FOO
+truth,org.junit.contrib.truth.codegen,BarSubject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: BAR
+truth,org.junit.contrib.truth.delegatetest,FooSubject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: FOO
+truth,org.junit.contrib.truth.extensiontest,ExtendedVerb,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: ASSERT
+truth,org.junit.contrib.truth.util,CompilingClassLoader.CompilerException,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+truth,org.junit.contrib.truth.subjects,StringSubject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: STRING
+truth,org.junit.contrib.truth.subjects,Subject.And,Global State,The tool detected the smell in this class because the class can be accessed as a `global` state.
+truth,org.junit.contrib.truth.subjects,IntegerSubject,Global State,The tool detected the smell in this class because the class declares global variables. The detected global variables are: INTEGER

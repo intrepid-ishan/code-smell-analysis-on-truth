@@ -1,0 +1,1046 @@
+Project Name,Package Name,Type Name,Method Name,Implementation Smell,Cause of the Smell,Method start line no
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,equals,Long Statement,The length of the statement "return this.message.equals(that.message()) && (this.cause == null ? that.cause() == null : this.cause.equals(that.cause()));" is 124.,42
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,hashCode,Magic Number,The method contains a magic number: 1000003,55
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,hashCode,Magic Number,The method contains a magic number: 1000003,55
+truth,com.google.common.truth,ExpectFailureWithStackTraceTest,expectTwoFailures,Magic Number,The method contains a magic number: 4,39
+truth,com.google.common.truth,ExpectFailureWithStackTraceTest,expectTwoFailures,Magic Number,The method contains a magic number: 4,39
+truth,com.google.common.truth,TruthAssertThatTest,staticAssertThatMethodsMatchTestVerbInstanceMethods,Long Statement,The length of the statement "ImmutableSortedSet<TypeToken<?>> verbTypes=FluentIterable.from(asList(TestVerb.class.getMethods())).filter(new Predicate<Method>(){" is 131.,52
+truth,com.google.common.truth,TruthAssertThatTest,staticAssertThatMethodsMatchTestVerbInstanceMethods,Long Statement,The length of the statement "ImmutableSortedSet<TypeToken<?>> truthTypes=FluentIterable.from(asList(Truth.class.getMethods())).filter(new Predicate<Method>(){" is 129.,52
+truth,com.google.common.truth,RelabeledSubjectsTest,namedIncludesActualIntegerValue,Magic Number,The method contains a magic number: 13,48
+truth,com.google.common.truth,RelabeledSubjectsTest,namedIncludesActualIntegerValue,Magic Number,The method contains a magic number: 12,48
+truth,com.google.common.truth,RelabeledSubjectsTest,relabelledCollections,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that crazy list (<[a` b` c]>) contains all of <[c` d]>. " + "It is missing <[d]>");" is 125.,83
+truth,com.google.common.truth,RelabeledSubjectsTest,relabelledPrimitiveFloatArrays,Magic Number,The method contains a magic number: 0.0000001f,96
+truth,com.google.common.truth,SubjectTest,nullPointerTester,Magic Number,The method contains a magic number: 2d,50
+truth,com.google.common.truth,SubjectTest,allAssertThatOverloadsAcceptNull,Complex Conditional,The conditional expression Modifier.isPublic(method.getModifiers()) && method.getName().equals("assertThat") && method.getParameterTypes().length == 1 is complex.,75
+truth,com.google.common.truth,SubjectTest,allAssertThatOverloadsAcceptNull,Long Statement,The length of the statement "if (Modifier.isPublic(method.getModifiers()) && method.getName().equals("assertThat") && method.getParameterTypes().length == 1) {" is 130.,75
+truth,com.google.common.truth,SubjectTest,toStringsAreIdentical,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <5> (java.lang.Integer) " + "is equal to <5> (com.google.common.truth.SubjectTest$IntWrapper)");" is 143.,136
+truth,com.google.common.truth,SubjectTest,toStringsAreIdentical,Magic Number,The method contains a magic number: 5,136
+truth,com.google.common.truth,SubjectTest,toStringsAreIdentical,Magic Number,The method contains a magic number: 5,136
+truth,com.google.common.truth,SubjectTest,isSameAsFailureWithDifferentTypesAndSameToString,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <true> (java.lang.String) is the same" + " instance as <true> (java.lang.Boolean)");" is 124.,208
+truth,com.google.common.truth,SubjectTest,isInstanceOfFail,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <4.5> is an instance of <java.lang.Long>." + " It is an instance of <java.lang.Double>");" is 129.,465
+truth,com.google.common.truth,SubjectTest,isInstanceOfFail,Magic Number,The method contains a magic number: 4.5,465
+truth,com.google.common.truth,SubjectTest,isNotInstanceOfFail,Magic Number,The method contains a magic number: 5,483
+truth,com.google.common.truth,SubjectTest,equalsThrowsUSOE,Magic Number,The method contains a magic number: 5,664
+truth,com.google.common.truth,SubjectTest,equalsThrowsUSOE,Magic Number,The method contains a magic number: 5,664
+truth,com.google.common.truth,SubjectTest,hashCodeThrowsUSOE,Magic Number,The method contains a magic number: 5,676
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrepended,Magic Number,The method contains a magic number: 13,36
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrepended,Magic Number,The method contains a magic number: 12,36
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrependedWithNamed,Magic Number,The method contains a magic number: 13,46
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrependedWithNamed,Magic Number,The method contains a magic number: 12,46
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrepended,Magic Number,The method contains a magic number: 13,72
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrepended,Magic Number,The method contains a magic number: 12,72
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrependedWithNamed,Magic Number,The method contains a magic number: 13,85
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrependedWithNamed,Magic Number,The method contains a magic number: 12,85
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 2,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 3,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 2,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 4,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 5,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 6,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 6,38
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Magic Number,The method contains a magic number: 7,38
+truth,com.google.common.truth,LongTest,simpleEquality,Magic Number,The method contains a magic number: 2L,40
+truth,com.google.common.truth,LongTest,simpleEquality,Magic Number,The method contains a magic number: 2,40
+truth,com.google.common.truth,LongTest,simpleEquality,Magic Number,The method contains a magic number: 4L,40
+truth,com.google.common.truth,LongTest,longIsLong,Magic Number,The method contains a magic number: 4L,45
+truth,com.google.common.truth,LongTest,longIsLong,Magic Number,The method contains a magic number: 4L,45
+truth,com.google.common.truth,LongTest,simpleInequality,Magic Number,The method contains a magic number: 2L,50
+truth,com.google.common.truth,LongTest,simpleInequality,Magic Number,The method contains a magic number: 2,50
+truth,com.google.common.truth,LongTest,simpleInequality,Magic Number,The method contains a magic number: 5L,50
+truth,com.google.common.truth,LongTest,equalityFail,Magic Number,The method contains a magic number: 2L,55
+truth,com.google.common.truth,LongTest,equalityFail,Magic Number,The method contains a magic number: 2,55
+truth,com.google.common.truth,LongTest,equalityFail,Magic Number,The method contains a magic number: 5L,55
+truth,com.google.common.truth,LongTest,inequalityFail,Magic Number,The method contains a magic number: 2L,65
+truth,com.google.common.truth,LongTest,inequalityFail,Magic Number,The method contains a magic number: 2,65
+truth,com.google.common.truth,LongTest,inequalityFail,Magic Number,The method contains a magic number: 4L,65
+truth,com.google.common.truth,LongTest,additionAssumptionFail,Empty catch clause,The method has an empty catch block.,75
+truth,com.google.common.truth,LongTest,additionAssumptionFail,Magic Number,The method contains a magic number: 2L,75
+truth,com.google.common.truth,LongTest,additionAssumptionFail,Magic Number,The method contains a magic number: 2,75
+truth,com.google.common.truth,LongTest,additionAssumptionFail,Magic Number,The method contains a magic number: 5L,75
+truth,com.google.common.truth,LongTest,equalityOfNullsFail,Magic Number,The method contains a magic number: 5L,89
+truth,com.google.common.truth,LongTest,equalityOfNullsFail,Magic Number,The method contains a magic number: 5L,89
+truth,com.google.common.truth,LongTest,inequalityOfNulls,Magic Number,The method contains a magic number: 4L,105
+truth,com.google.common.truth,LongTest,inequalityOfNulls,Magic Number,The method contains a magic number: 4L,105
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Empty catch clause,The method has an empty catch block.,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Empty catch clause,The method has an empty catch block.,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Empty catch clause,The method has an empty catch block.,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Empty catch clause,The method has an empty catch block.,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Empty catch clause,The method has an empty catch block.,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Magic Number,The method contains a magic number: 6,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Magic Number,The method contains a magic number: 6,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Magic Number,The method contains a magic number: 6,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Magic Number,The method contains a magic number: 6,41
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,Magic Number,The method contains a magic number: 6,41
+truth,com.google.common.truth,ComparableSubjectTest,isInRange,Magic Number,The method contains a magic number: 5,70
+truth,com.google.common.truth,ComparableSubjectTest,isInRange,Magic Number,The method contains a magic number: 4,70
+truth,com.google.common.truth,ComparableSubjectTest,isInRange,Magic Number,The method contains a magic number: 6,70
+truth,com.google.common.truth,ComparableSubjectTest,isNotInRange,Magic Number,The method contains a magic number: 5,83
+truth,com.google.common.truth,ComparableSubjectTest,isNotInRange,Magic Number,The method contains a magic number: 6,83
+truth,com.google.common.truth,ComparableSubjectTest,isNotInRange,Magic Number,The method contains a magic number: 4,83
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 5,108
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 4,108
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 4,108
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 4,108
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 3,108
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Magic Number,The method contains a magic number: 4,108
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 4,126
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 5,126
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 4,126
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 4,126
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 4,126
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Magic Number,The method contains a magic number: 3,126
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 5,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 5,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 5,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 6,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 4,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,Magic Number,The method contains a magic number: 3,144
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 4,157
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 3,157
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 4,157
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 4,157
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 4,157
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,Magic Number,The method contains a magic number: 5,157
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 5L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 5L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 5L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 3L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 2L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 4L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 3L,172
+truth,com.google.common.truth,ComparableSubjectTest,longs,Magic Number,The method contains a magic number: 5L,172
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,Magic Number,The method contains a magic number: 4,221
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,Magic Number,The method contains a magic number: 3,221
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,Magic Number,The method contains a magic number: 3,221
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,Magic Number,The method contains a magic number: 4,221
+truth,com.google.common.truth,ComparableSubjectTest,namedComparableType,Magic Number,The method contains a magic number: 2,227
+truth,com.google.common.truth,ComparableSubjectTest,namedComparableType,Magic Number,The method contains a magic number: 3,227
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableType,Magic Number,The method contains a magic number: 3,245
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableType,Magic Number,The method contains a magic number: 4,245
+truth,com.google.common.truth,ComparableSubjectTest,comparableMixedTypesDontCompile,Long Statement,The length of the statement "JavaFileObject file=JavaFileObjects.forSourceLines("test.MyTest"`"package test;"`"import static com.google.common.truth.Truth.assertThat;"`"class MyTest {"`" public void testFoo() {"`" assertThat(new ComparableType(3)).isLessThan(\"kak\");"`" }"`" private static final class ComparableType implements Comparable<ComparableType> {"`" private final int wrapped;"`" private ComparableType(int toWrap) {"`" this.wrapped = toWrap;"`" }"`" @Override public int compareTo(ComparableType other) {"`" return wrapped - ((ComparableType) other).wrapped;"`" }"`" }"`"}");" is 559.,268
+truth,com.google.common.truth,ComparableSubjectTest,comparableMixedTypesDontCompile,Long Statement,The length of the statement "assertAbout(javaSource()).that(file).failsToCompile().withErrorContaining("java.lang.String cannot be converted to test.MyTest.ComparableType").in(file).onLine(5);" is 163.,268
+truth,com.google.common.truth,ComparableSubjectTest,comparableMixedTypesDontCompile,Magic Number,The method contains a magic number: 5,268
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableTypeMixedTypes,Long Statement,The length of the statement "JavaFileObject file=JavaFileObjects.forSourceLines("test.MyTest"`"package test;"`"import static com.google.common.truth.Truth.assertThat;"`"class MyTest {"`" public void testFoo() {"`" assertThat(new RawComparableType(3)).isLessThan(\"kak\");"`" }"`" private static final class RawComparableType implements Comparable {"`" private final int wrapped;"`" private RawComparableType(int toWrap) {"`" this.wrapped = toWrap;"`" }"`" @Override public int compareTo(Object other) {"`" return wrapped - ((RawComparableType) other).wrapped;"`" }"`" }"`"}");" is 547.,298
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableTypeMixedTypes,Long Statement,The length of the statement "assertAbout(javaSource()).that(file).failsToCompile().withErrorContaining("java.lang.String cannot be converted to test.MyTest.RawComparableType").in(file).onLine(5);" is 166.,298
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableTypeMixedTypes,Magic Number,The method contains a magic number: 5,298
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversed,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <class java.lang.Object> " + "is assignable to <class java.lang.String>");" is 121.,43
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversedDifferentTypes,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <class java.lang.String> " + "is assignable to <class java.lang.Exception>");" is 124.,56
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_bigDecimal,Magic Number,The method contains a magic number: 10,47
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_bigDecimal,Magic Number,The method contains a magic number: 3,47
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_int,Magic Number,The method contains a magic number: 10,59
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_int,Magic Number,The method contains a magic number: 3,59
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_long,Magic Number,The method contains a magic number: 10L,70
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_long,Magic Number,The method contains a magic number: 3L,70
+truth,com.google.common.truth,AbstractArraySubjectTest,canBeUsedInSubjectFactories,Magic Number,The method contains a magic number: 2,46
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 2,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 3,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 2,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 3,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 2,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 2,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 3,44
+truth,com.google.common.truth,ExampleTest,listHasElements,Magic Number,The method contains a magic number: 5,44
+truth,com.google.common.truth,ExampleTest,equalityFail,Magic Number,The method contains a magic number: 2,56
+truth,com.google.common.truth,ExampleTest,equalityFail,Magic Number,The method contains a magic number: 2,56
+truth,com.google.common.truth,ExampleTest,equalityFail,Magic Number,The method contains a magic number: 5,56
+truth,com.google.common.truth,ExampleTest,expectRange,Magic Number,The method contains a magic number: 4,77
+truth,com.google.common.truth,ExampleTest,expectRange,Magic Number,The method contains a magic number: 3,77
+truth,com.google.common.truth,ExampleTest,expectRange,Magic Number,The method contains a magic number: 5,77
+truth,com.google.common.truth,ExampleTest,expectRange,Magic Number,The method contains a magic number: 4,77
+truth,com.google.common.truth,ExampleTest,customTypeCompares,Magic Number,The method contains a magic number: 5,85
+truth,com.google.common.truth,ExampleTest,customTypeCompares,Magic Number,The method contains a magic number: 2,85
+truth,com.google.common.truth,ExampleTest,customTypeCompares,Magic Number,The method contains a magic number: 3,85
+truth,com.google.common.truth,IntegerTest,simpleEquality,Magic Number,The method contains a magic number: 2,41
+truth,com.google.common.truth,IntegerTest,simpleEquality,Magic Number,The method contains a magic number: 2,41
+truth,com.google.common.truth,IntegerTest,simpleEquality,Magic Number,The method contains a magic number: 4,41
+truth,com.google.common.truth,IntegerTest,intIsInt,Magic Number,The method contains a magic number: 4,46
+truth,com.google.common.truth,IntegerTest,intIsInt,Magic Number,The method contains a magic number: 4,46
+truth,com.google.common.truth,IntegerTest,simpleInequality,Magic Number,The method contains a magic number: 2,51
+truth,com.google.common.truth,IntegerTest,simpleInequality,Magic Number,The method contains a magic number: 2,51
+truth,com.google.common.truth,IntegerTest,simpleInequality,Magic Number,The method contains a magic number: 5,51
+truth,com.google.common.truth,IntegerTest,equalityFail,Magic Number,The method contains a magic number: 2,56
+truth,com.google.common.truth,IntegerTest,equalityFail,Magic Number,The method contains a magic number: 2,56
+truth,com.google.common.truth,IntegerTest,equalityFail,Magic Number,The method contains a magic number: 5,56
+truth,com.google.common.truth,IntegerTest,inequalityFail,Magic Number,The method contains a magic number: 2,66
+truth,com.google.common.truth,IntegerTest,inequalityFail,Magic Number,The method contains a magic number: 2,66
+truth,com.google.common.truth,IntegerTest,inequalityFail,Magic Number,The method contains a magic number: 4,66
+truth,com.google.common.truth,IntegerTest,additionAssumptionFail,Empty catch clause,The method has an empty catch block.,76
+truth,com.google.common.truth,IntegerTest,additionAssumptionFail,Magic Number,The method contains a magic number: 2,76
+truth,com.google.common.truth,IntegerTest,additionAssumptionFail,Magic Number,The method contains a magic number: 2,76
+truth,com.google.common.truth,IntegerTest,additionAssumptionFail,Magic Number,The method contains a magic number: 5,76
+truth,com.google.common.truth,IntegerTest,equalityOfNullsFail,Magic Number,The method contains a magic number: 5,90
+truth,com.google.common.truth,IntegerTest,equalityOfNullsFail,Magic Number,The method contains a magic number: 5,90
+truth,com.google.common.truth,IntegerTest,inequalityOfNulls,Magic Number,The method contains a magic number: 4,106
+truth,com.google.common.truth,IntegerTest,inequalityOfNulls,Magic Number,The method contains a magic number: 4,106
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4L,122
+truth,com.google.common.truth,IntegerTest,primitives,Magic Number,The method contains a magic number: 4,122
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Empty catch clause,The method has an empty catch block.,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Empty catch clause,The method has an empty catch block.,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4L,132
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Magic Number,The method contains a magic number: 4,132
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4,158
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Magic Number,The method contains a magic number: 4L,158
+truth,com.google.common.truth,TableTest,tableIsEmptyWithFailure,Magic Number,The method contains a magic number: 5,41
+truth,com.google.common.truth,TableTest,tableIsEmptyWithFailure,Magic Number,The method contains a magic number: 7,41
+truth,com.google.common.truth,TableTest,tableIsNotEmpty,Magic Number,The method contains a magic number: 5,52
+truth,com.google.common.truth,TableTest,tableIsNotEmpty,Magic Number,The method contains a magic number: 7,52
+truth,com.google.common.truth,TableTest,hasSize,Magic Number,The method contains a magic number: 2,69
+truth,com.google.common.truth,TableTest,hasSize,Magic Number,The method contains a magic number: 3,69
+truth,com.google.common.truth,TableTest,hasSizeNegative,Empty catch clause,The method has an empty catch block.,79
+truth,com.google.common.truth,TableTest,hasSizeNegative,Magic Number,The method contains a magic number: 2,79
+truth,com.google.common.truth,TableTest,hasSizeNegative,Magic Number,The method contains a magic number: 3,79
+truth,com.google.common.truth,ThrowableTest,hasMessage_failure,Long Statement,The length of the statement "assertThat(expected.getMessage()).isEqualTo("Not true that <java.lang.NullPointerException: message> has message <foobar>");" is 124.,43
+truth,com.google.common.truth,ThrowableTest,hasMessage_MessageHasNullMessage_failure,Long Statement,The length of the statement "assertThat(expected.getMessage()).isEqualTo("Not true that <java.lang.NullPointerException: message> has message <null>");" is 122.,57
+truth,com.google.common.truth,ExpectFailureTest,expectFailNotEquals,Magic Number,The method contains a magic number: 4,40
+truth,com.google.common.truth,ExpectFailureTest,expectFailNotEquals,Magic Number,The method contains a magic number: 4,40
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2,35
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5,35
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2,35
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5,35
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Same,Magic Number,The method contains a magic number: 2,40
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Same,Magic Number,The method contains a magic number: 5,40
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Magic Number,The method contains a magic number: 5,46
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Magic Number,The method contains a magic number: 2,46
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Magic Number,The method contains a magic number: 9,46
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Magic Number,The method contains a magic number: 2,46
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Magic Number,The method contains a magic number: 9,46
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLength,Magic Number,The method contains a magic number: 2,51
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLength,Magic Number,The method contains a magic number: 5,51
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLength,Magic Number,The method contains a magic number: 2,51
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthFail,Magic Number,The method contains a magic number: 2,57
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthFail,Magic Number,The method contains a magic number: 5,57
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,Magic Number,The method contains a magic number: 2,67
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,Magic Number,The method contains a magic number: 5,67
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmptyFail,Magic Number,The method contains a magic number: 2,81
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmptyFail,Magic Number,The method contains a magic number: 5,81
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmpty,Magic Number,The method contains a magic number: 2,91
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmpty,Magic Number,The method contains a magic number: 5,91
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2,106
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3,106
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3,106
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2,106
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 2,115
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 3,115
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 4,115
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2,125
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3,125
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3,125
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2,125
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2,130
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3,130
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2,130
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3,130
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 2,135
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 3,135
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2,140
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3,140
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2,140
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3,140
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 2,149
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 3,149
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithWrongValueForOther,Magic Number,The method contains a magic number: 5,139
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithWrongValueForOther,Magic Number,The method contains a magic number: 10,139
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Empty catch clause,The method has an empty catch block.,35
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2d,35
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4d,35
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2d,35
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4d,35
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2.2d,45
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5.4d,45
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2.2d,45
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5.4d,45
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2.2d,50
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3.3d,50
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3.3d,50
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2.2d,50
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 2.2d,60
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 3.3d,60
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 4.4d,60
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Empty catch clause,The method has an empty catch block.,71
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2d,71
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4d,71
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4d,71
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2d,71
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2.2d,81
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3.3d,81
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3.3d,81
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2.2d,81
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2.2d,86
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3.3d,86
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2.2d,86
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3.3d,86
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 1.1d,86
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 2.2d,91
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 3.3d,91
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2.2d,96
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3.3d,96
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2.2d,96
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3.3d,96
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 2.2d,106
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 3.3d,106
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5L,38
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5L,38
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Same,Magic Number,The method contains a magic number: 5L,43
+truth,com.google.common.truth,ObjectArraySubjectTest,asList,Magic Number,The method contains a magic number: 5L,49
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLength,Magic Number,The method contains a magic number: 5L,54
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLength,Magic Number,The method contains a magic number: 2,54
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthFail,Magic Number,The method contains a magic number: 5L,60
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,Empty catch clause,The method has an empty catch block.,70
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,Magic Number,The method contains a magic number: 2,70
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,Magic Number,The method contains a magic number: 5,70
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmptyFail,Magic Number,The method contains a magic number: 5L,84
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmpty,Magic Number,The method contains a magic number: 5L,94
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 5L,109
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 5L,109
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 5L,121
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 5L,133
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 5L,133
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 5L,138
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 5L,138
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 5L,143
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 5L,148
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 5L,148
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 5L,158
+truth,com.google.common.truth,ObjectArraySubjectTest,SetArrayIsEqualTo_Fail_UnequalOrdering,Long Statement,The length of the statement "assertThat(objectArray(ImmutableSet.of("A")`ImmutableSet.of("B"))).isEqualTo(objectArray(ImmutableSet.of("B")`ImmutableSet.of("A")));" is 133.,209
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 1.3f,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 1.3f,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 0.00000000000001f,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 1.3f,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 1.3f,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 2.0,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 3.0,33
+truth,com.google.common.truth,MathUtilTest,floatEquality,Magic Number,The method contains a magic number: 0.00000000000000000000000000000001f,33
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 1.3d,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 1.3d,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 0.00000000000001f,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 1.3d,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 1.3d,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 2.0,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 3.0,41
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Magic Number,The method contains a magic number: 0.00000000000000000000000000000001d,41
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 1.3d,49
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 1.3f,49
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 0.00000000000001d,49
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 1.3f,49
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 1.3d,49
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Magic Number,The method contains a magic number: 0.00000000000001f,49
+truth,com.google.common.truth,IterableTest,hasSize,Magic Number,The method contains a magic number: 2,41
+truth,com.google.common.truth,IterableTest,hasSize,Magic Number,The method contains a magic number: 3,41
+truth,com.google.common.truth,IterableTest,hasSize,Magic Number,The method contains a magic number: 3,41
+truth,com.google.common.truth,IterableTest,hasSizeFails,Magic Number,The method contains a magic number: 2,51
+truth,com.google.common.truth,IterableTest,hasSizeFails,Magic Number,The method contains a magic number: 3,51
+truth,com.google.common.truth,IterableTest,hasSizeFails,Magic Number,The method contains a magic number: 4,51
+truth,com.google.common.truth,IterableTest,hasSizeNegative,Empty catch clause,The method has an empty catch block.,61
+truth,com.google.common.truth,IterableTest,hasSizeNegative,Magic Number,The method contains a magic number: 2,61
+truth,com.google.common.truth,IterableTest,hasSizeNegative,Magic Number,The method contains a magic number: 3,61
+truth,com.google.common.truth,IterableTest,iterableContains,Magic Number,The method contains a magic number: 2,70
+truth,com.google.common.truth,IterableTest,iterableContains,Magic Number,The method contains a magic number: 3,70
+truth,com.google.common.truth,IterableTest,iterableContainsWithNull,Magic Number,The method contains a magic number: 3,75
+truth,com.google.common.truth,IterableTest,iterableContainsFailure,Magic Number,The method contains a magic number: 2,80
+truth,com.google.common.truth,IterableTest,iterableContainsFailure,Magic Number,The method contains a magic number: 3,80
+truth,com.google.common.truth,IterableTest,iterableContainsFailure,Magic Number,The method contains a magic number: 5,80
+truth,com.google.common.truth,IterableTest,namedIterableContainsFailure,Magic Number,The method contains a magic number: 2,90
+truth,com.google.common.truth,IterableTest,namedIterableContainsFailure,Magic Number,The method contains a magic number: 3,90
+truth,com.google.common.truth,IterableTest,namedIterableContainsFailure,Magic Number,The method contains a magic number: 5,90
+truth,com.google.common.truth,IterableTest,failureMessageIterableContainsFailure,Magic Number,The method contains a magic number: 2,100
+truth,com.google.common.truth,IterableTest,failureMessageIterableContainsFailure,Magic Number,The method contains a magic number: 3,100
+truth,com.google.common.truth,IterableTest,failureMessageIterableContainsFailure,Magic Number,The method contains a magic number: 5,100
+truth,com.google.common.truth,IterableTest,iterableDoesNotContain,Magic Number,The method contains a magic number: 3,110
+truth,com.google.common.truth,IterableTest,iterableDoesNotContain,Magic Number,The method contains a magic number: 5,110
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainNull,Magic Number,The method contains a magic number: 2,115
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainNull,Magic Number,The method contains a magic number: 3,115
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainFailure,Magic Number,The method contains a magic number: 2,120
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainFailure,Magic Number,The method contains a magic number: 3,120
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainFailure,Magic Number,The method contains a magic number: 2,120
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicates,Magic Number,The method contains a magic number: 2,130
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicates,Magic Number,The method contains a magic number: 3,130
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesMixedTypes,Magic Number,The method contains a magic number: 2,135
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesMixedTypes,Magic Number,The method contains a magic number: 2L,135
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesMixedTypes,Magic Number,The method contains a magic number: 3,135
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesFailure,Magic Number,The method contains a magic number: 2,140
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesFailure,Magic Number,The method contains a magic number: 2,140
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesFailure,Magic Number,The method contains a magic number: 3,140
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOf,Magic Number,The method contains a magic number: 2,150
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOf,Magic Number,The method contains a magic number: 3,150
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOf,Magic Number,The method contains a magic number: 5,150
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNull,Magic Number,The method contains a magic number: 3,155
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNull,Magic Number,The method contains a magic number: 5,155
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNullInThirdAndFinalPosition,Magic Number,The method contains a magic number: 3,160
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNullInThirdAndFinalPosition,Magic Number,The method contains a magic number: 4,160
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNullInThirdAndFinalPosition,Magic Number,The method contains a magic number: 5,160
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfFailure,Magic Number,The method contains a magic number: 2,165
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfFailure,Magic Number,The method contains a magic number: 3,165
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfFailure,Magic Number,The method contains a magic number: 5,165
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfFailure,Magic Number,The method contains a magic number: 6,165
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithOneShotIterable,Magic Number,The method contains a magic number: 2,175
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithOneShotIterable,Magic Number,The method contains a magic number: 3,175
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithOneShotIterable,Magic Number,The method contains a magic number: 7,175
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithMany,Magic Number,The method contains a magic number: 2,189
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithMany,Magic Number,The method contains a magic number: 3,189
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithMany,Magic Number,The method contains a magic number: 2,189
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 2,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 2,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 2,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 3,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 2,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Magic Number,The method contains a magic number: 2,194
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNull,Magic Number,The method contains a magic number: 3,199
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNull,Magic Number,The method contains a magic number: 3,199
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullAtThirdAndFinalPosition,Magic Number,The method contains a magic number: 3,204
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullAtThirdAndFinalPosition,Magic Number,The method contains a magic number: 3,204
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfFailure,Magic Number,The method contains a magic number: 2,209
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfFailure,Magic Number,The method contains a magic number: 3,209
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfFailure,Magic Number,The method contains a magic number: 2,209
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfFailure,Magic Number,The method contains a magic number: 4,209
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3]> contains all of <[1` 2` 2` 2` 3` 4]>. " + "It is missing <[2 [2 copies]` 4]>");" is 131.,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 2,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 3,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 2,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 2,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 2,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 3,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,Magic Number,The method contains a magic number: 4,244
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicateMissingElements,Magic Number,The method contains a magic number: 2,261
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,261
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,261
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,261
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` null` 3]> contains all of <[1` null` null` 3]>. " + "It is missing <[null]>");" is 123.,273
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullFailure,Magic Number,The method contains a magic number: 3,273
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullFailure,Magic Number,The method contains a magic number: 3,273
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 3,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 2,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 5,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 3,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 2,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Magic Number,The method contains a magic number: 5,286
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 2,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 2,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 2,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 4,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 2,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 2,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 4,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 3,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Magic Number,The method contains a magic number: 5,291
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 3,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 5,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 3,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 5,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 3,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 7,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 5,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 3,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Magic Number,The method contains a magic number: 5,302
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithFailure,Magic Number,The method contains a magic number: 3,308
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithFailure,Magic Number,The method contains a magic number: 3,308
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 2,319
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 4,319
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 3,319
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 3,319
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 2,339
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 4,339
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 3,339
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 3,339
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Magic Number,The method contains a magic number: 2,364
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Magic Number,The method contains a magic number: 3,364
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Magic Number,The method contains a magic number: 4,364
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Magic Number,The method contains a magic number: 5,364
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Magic Number,The method contains a magic number: 6,364
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailure,Magic Number,The method contains a magic number: 2,369
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailure,Magic Number,The method contains a magic number: 3,369
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailure,Magic Number,The method contains a magic number: 2,369
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailure,Magic Number,The method contains a magic number: 4,369
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,Magic Number,The method contains a magic number: 2,381
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,Magic Number,The method contains a magic number: 2,381
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,Magic Number,The method contains a magic number: 2,381
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,Magic Number,The method contains a magic number: 4,381
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,Magic Number,The method contains a magic number: 2,393
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,Magic Number,The method contains a magic number: 3,393
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,Magic Number,The method contains a magic number: 2,393
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,Magic Number,The method contains a magic number: 2,393
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,Magic Number,The method contains a magic number: 4,393
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,Magic Number,The method contains a magic number: 2,420
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,Magic Number,The method contains a magic number: 3,420
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,Magic Number,The method contains a magic number: 2,420
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,Magic Number,The method contains a magic number: 3,420
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 2,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 3,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 4,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 3,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 4,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Magic Number,The method contains a magic number: 2,425
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 3,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 2,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Magic Number,The method contains a magic number: 3,430
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 3,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 3,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Magic Number,The method contains a magic number: 2,435
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullThird,Magic Number,The method contains a magic number: 2,451
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullThird,Magic Number,The method contains a magic number: 2,451
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNull,Magic Number,The method contains a magic number: 3,456
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNull,Magic Number,The method contains a magic number: 3,456
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullOutOfOrder,Magic Number,The method contains a magic number: 3,461
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullOutOfOrder,Magic Number,The method contains a magic number: 3,461
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithElementsThatThrowWhenYouCallHashCode,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <[HCT` HCT]> contains exactly <[HCT]>. " + "It has unexpected items <[HCT]>");" is 125.,466
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInErrorMessageIsOrdered,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[foo OR bar]> contains exactly <[foo` bar]>. " + "It is missing <[foo` bar]> and has unexpected items <[foo OR bar]>");" is 160.,505
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyMissingItemFailure,Magic Number,The method contains a magic number: 2,519
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyMissingItemFailure,Magic Number,The method contains a magic number: 2,519
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyMissingItemFailure,Magic Number,The method contains a magic number: 4,519
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,530
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyUnexpectedItemFailure,Magic Number,The method contains a magic number: 3,530
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,530
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3]> contains exactly <[1` 2` 2` 2` 3]>. " + "It is missing <[2 [2 copies]]>");" is 126.,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 2,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 3,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 2,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 2,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 2,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,Magic Number,The method contains a magic number: 3,542
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3]> contains exactly <[1` 2` 2` 2` 3` 4]>. " + "It is missing <[2 [2 copies]` 4]>");" is 132.,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 2,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 3,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 2,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 2,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 2,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 3,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,Magic Number,The method contains a magic number: 4,555
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 2` 2` 2` 3]> contains exactly <[1` 2` 2` 3]>. " + "It has unexpected items <[2 [2 copies]]>");" is 142.,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 3,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 2,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,Magic Number,The method contains a magic number: 3,568
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,585
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,585
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingElements,Magic Number,The method contains a magic number: 4,585
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullFailure,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` null` 3]> contains exactly <[1` null` null` 3]>. " + "It is missing <[null]>");" is 124.,597
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullFailure,Magic Number,The method contains a magic number: 3,597
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullFailure,Magic Number,The method contains a magic number: 3,597
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3]> contains exactly <[1` 2` 4]>. " + "It is missing <[4]> and has unexpected items <[3]>");" is 140.,610
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,Magic Number,The method contains a magic number: 2,610
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,Magic Number,The method contains a magic number: 3,610
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,Magic Number,The method contains a magic number: 2,610
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,Magic Number,The method contains a magic number: 4,610
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3` 3]> contains exactly <[1` 2` 4` 4]>. " + "It is missing <[4 [2 copies]]> and has unexpected items <[3 [2 copies]]>");" is 168.,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 2,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 3,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 3,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 2,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 4,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,Magic Number,The method contains a magic number: 4,623
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3` 4]> contains exactly <[[1` 2` 3` 4]]>. " + "It is missing <[[1` 2` 3` 4]]> and has unexpected items <[1` 2` 3` 4]>. " + "Passing an iterable to the varargs method containsExactly(Object...) is "+ "often not the correct thing to do. Did you mean to call "+ "containsExactlyElementsIn(Iterable) instead?");" is 355.,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 2,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 3,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 4,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 2,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 3,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,Magic Number,The method contains a magic number: 4,636
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3` 4]> contains exactly <[1` 2` 3]>. " + "It has unexpected items <[4]>");" is 122.,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 2,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 3,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 4,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 2,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 3,652
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3` 4]> contains exactly <[[1` 2]` [3` 4]]>. " + "It is missing <[[1` 2]` [3` 4]]> and has unexpected items <[1` 2` 3` 4]>");" is 172.,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 2,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 3,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 4,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 2,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 3,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,Magic Number,The method contains a magic number: 4,665
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneNonIterableDoesNotGiveWarning,Long Statement,The length of the statement "assertThat(e).hasMessage("Not true that <[1` 2` 3` 4]> contains exactly <[1]>. " + "It has unexpected items <[2` 3` 4]>");" is 122.,678
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneNonIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 2,678
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneNonIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 3,678
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneNonIterableDoesNotGiveWarning,Magic Number,The method contains a magic number: 4,678
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 3,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 2,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 5,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 3,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 2,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Magic Number,The method contains a magic number: 5,691
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,Magic Number,The method contains a magic number: 3,696
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,Magic Number,The method contains a magic number: 5,696
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,Magic Number,The method contains a magic number: 3,696
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,Magic Number,The method contains a magic number: 5,696
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithFailure,Magic Number,The method contains a magic number: 3,701
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithFailure,Magic Number,The method contains a magic number: 3,701
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 3,713
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterable,Magic Number,The method contains a magic number: 3,713
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 3,726
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterableWrongOrder,Magic Number,The method contains a magic number: 3,726
+truth,com.google.common.truth,IterableTest,iterableIsEmptyWithFailure,Magic Number,The method contains a magic number: 3,757
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrdered,Magic Number,The method contains a magic number: 2,782
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrdered,Magic Number,The method contains a magic number: 3,782
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrdered,Magic Number,The method contains a magic number: 4,782
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedFailure,Magic Number,The method contains a magic number: 2,789
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedFailure,Magic Number,The method contains a magic number: 2,789
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedFailure,Magic Number,The method contains a magic number: 4,789
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedWithNonComparableElementsFailure,Empty catch clause,The method has an empty catch block.,800
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedWithNonComparableElementsFailure,Magic Number,The method contains a magic number: 3,800
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Magic Number,The method contains a magic number: 2,809
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Magic Number,The method contains a magic number: 3,809
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Magic Number,The method contains a magic number: 3,809
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Magic Number,The method contains a magic number: 3,809
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Magic Number,The method contains a magic number: 4,809
+truth,com.google.common.truth,IterableTest,isOrderedFailure,Magic Number,The method contains a magic number: 3,816
+truth,com.google.common.truth,IterableTest,isOrderedFailure,Magic Number,The method contains a magic number: 2,816
+truth,com.google.common.truth,IterableTest,isOrderedFailure,Magic Number,The method contains a magic number: 4,816
+truth,com.google.common.truth,IterableTest,isOrderedWithNonComparableElementsFailure,Empty catch clause,The method has an empty catch block.,827
+truth,com.google.common.truth,IterableTest,isOrderedWithNonComparableElementsFailure,Magic Number,The method contains a magic number: 2,827
+truth,com.google.common.truth,IterableTest,iterableOrderedByBaseClassComparator,Magic Number,The method contains a magic number: 2,905
+truth,com.google.common.truth,IterableTest,iterableOrderedByBaseClassComparator,Magic Number,The method contains a magic number: 3,905
+truth,com.google.common.truth,MultimapTest,multimapIsEmptyWithFailure,Magic Number,The method contains a magic number: 5,47
+truth,com.google.common.truth,MultimapTest,multimapIsNotEmpty,Magic Number,The method contains a magic number: 5,58
+truth,com.google.common.truth,MultimapTest,multimapNamedValuesForKey,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that " + "<Values for key <1> (<[5]>) in multymap (<{1=[5]}>)> contains exactly <[4]>. " + "It is missing <[4]> and has unexpected items <[5]>");" is 187.,75
+truth,com.google.common.truth,MultimapTest,multimapNamedValuesForKey,Magic Number,The method contains a magic number: 5,75
+truth,com.google.common.truth,MultimapTest,multimapNamedValuesForKey,Magic Number,The method contains a magic number: 4,75
+truth,com.google.common.truth,MultimapTest,valuesForKeyNamed,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that " + "valuez (<Values for key <1> (<[5]>) in <{1=[5]}>>) contains exactly <[4]>. " + "It is missing <[4]> and has unexpected items <[5]>");" is 185.,93
+truth,com.google.common.truth,MultimapTest,valuesForKeyNamed,Magic Number,The method contains a magic number: 5,93
+truth,com.google.common.truth,MultimapTest,valuesForKeyNamed,Magic Number,The method contains a magic number: 4,93
+truth,com.google.common.truth,MultimapTest,hasSize,Magic Number,The method contains a magic number: 2,111
+truth,com.google.common.truth,MultimapTest,hasSize,Magic Number,The method contains a magic number: 3,111
+truth,com.google.common.truth,MultimapTest,hasSize,Magic Number,The method contains a magic number: 4,111
+truth,com.google.common.truth,MultimapTest,hasSize,Magic Number,The method contains a magic number: 2,111
+truth,com.google.common.truth,MultimapTest,hasSizeNegative,Empty catch clause,The method has an empty catch block.,121
+truth,com.google.common.truth,MultimapTest,hasSizeNegative,Magic Number,The method contains a magic number: 2,121
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 4,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 4,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 4,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 3,230
+truth,com.google.common.truth,MultimapTest,valuesForKey,Magic Number,The method contains a magic number: 5,230
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 3,244
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 3,244
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 3,244
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 4,244
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 4,244
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Magic Number,The method contains a magic number: 4,244
+truth,com.google.common.truth,MultimapTest,containsExactly,Magic Number,The method contains a magic number: 3,252
+truth,com.google.common.truth,MultimapTest,containsExactly,Magic Number,The method contains a magic number: 3,252
+truth,com.google.common.truth,MultimapTest,containsExactly,Magic Number,The method contains a magic number: 3,252
+truth,com.google.common.truth,MultimapTest,containsExactly,Magic Number,The method contains a magic number: 4,252
+truth,com.google.common.truth,MultimapTest,containsExactly,Magic Number,The method contains a magic number: 4,252
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Empty catch clause,The method has an empty catch block.,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Magic Number,The method contains a magic number: 3,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Magic Number,The method contains a magic number: 3,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Magic Number,The method contains a magic number: 3,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Magic Number,The method contains a magic number: 4,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,Magic Number,The method contains a magic number: 4,270
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 4,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 4,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 4,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 4,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Magic Number,The method contains a magic number: 3,282
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Long Statement,The length of the statement "assertThat(e).hasMessage(String.format("Not true that <%s> contains exactly <%s>. " + "It has unexpected items <{3=[one]` 4=[five]}>"`actual`expected));" is 152.,292
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Magic Number,The method contains a magic number: 3,292
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Magic Number,The method contains a magic number: 3,292
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Magic Number,The method contains a magic number: 3,292
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Magic Number,The method contains a magic number: 4,292
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,Magic Number,The method contains a magic number: 4,292
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Long Statement,The length of the statement "assertThat(e).hasMessage(String.format("Not true that <%s> contains exactly <%s>. " + "It is missing <{3=[six]` 4=[five]}>"`actual`expected));" is 142.,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 3,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 3,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 3,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 4,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 4,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 3,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,Magic Number,The method contains a magic number: 4,312
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Long Statement,The length of the statement "assertThat(e).hasMessage(String.format("Not true that <%s> contains exactly <%s>. " + "It has unexpected items <{4=[nine]` 5=[eight]}>"`actual`expected));" is 154.,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 3,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 3,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 3,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 4,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 4,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 4,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,Magic Number,The method contains a magic number: 5,334
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Long Statement,The length of the statement "assertThat(e).hasMessage(String.format("Not true that <%s> contains exactly <%s>. " + "It is missing <{3=[six]` 4=[five]}> " + "and has unexpected items <{4=[nine]` 5=[eight]}>"`actual`expected));" is 196.,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 3,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 3,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 3,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 4,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 4,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 3,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 4,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 4,356
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,Magic Number,The method contains a magic number: 5,356
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 4,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 4,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 3,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 4,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Magic Number,The method contains a magic number: 4,381
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Magic Number,The method contains a magic number: 3,391
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Magic Number,The method contains a magic number: 3,391
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Magic Number,The method contains a magic number: 3,391
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Magic Number,The method contains a magic number: 4,391
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Magic Number,The method contains a magic number: 4,391
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Long Statement,The length of the statement "assertThat(e.getMessage()).startsWith(String.format("Not true that <%s> contains exactly <%s> in order. "`actual`expected));" is 124.,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 4,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 4,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 4,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 4,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,Magic Number,The method contains a magic number: 3,400
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Long Statement,The length of the statement "assertThat(e).hasMessage(String.format("Not true that <%s> contains exactly <%s> in order. " + "The values for keys <[3]> are not in order"`actual`expected));" is 158.,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 4,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 4,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 3,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 4,419
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,Magic Number,The method contains a magic number: 4,419
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2L,33
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5,33
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2L,33
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5,33
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Same,Magic Number,The method contains a magic number: 2L,38
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Same,Magic Number,The method contains a magic number: 5,38
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Magic Number,The method contains a magic number: 5,44
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Magic Number,The method contains a magic number: 2,44
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Magic Number,The method contains a magic number: 9,44
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Magic Number,The method contains a magic number: 2L,44
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Magic Number,The method contains a magic number: 9L,44
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2,49
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3,49
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3,49
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2,49
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 2,58
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 3,58
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 4,58
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2,68
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3,68
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3,68
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2,68
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2,73
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3,73
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2,73
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3,73
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 2,78
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 3,78
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2,83
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3,83
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2,83
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3,83
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 2,92
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 3,92
+truth,com.google.common.truth,ExpectTest,expectTrue,Magic Number,The method contains a magic number: 4,51
+truth,com.google.common.truth,ExpectTest,expectTrue,Magic Number,The method contains a magic number: 4,51
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,Magic Number,The method contains a magic number: 2,38
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,Magic Number,The method contains a magic number: 3,38
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,Magic Number,The method contains a magic number: 2,38
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,Magic Number,The method contains a magic number: 3,38
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <{jan=1` feb=2` march=3}> is equal to <{jan=1` april=4` march=5}>. " + "The subject is missing the following entries: {april=4} and " + "has the following extra entries: {feb=2} and "+ "has the following different entries: {march=(5` 3)}");" is 287.,46
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,Magic Number,The method contains a magic number: 2,46
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,Magic Number,The method contains a magic number: 3,46
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,Magic Number,The method contains a magic number: 4,46
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,Magic Number,The method contains a magic number: 5,46
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <{jan=1` feb=2` march=3}> is equal to <{jan=1` feb=2` march=4}>. " + "The subject has the following different entries: {march=(4` 3)}");" is 183.,65
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 2,65
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 3,65
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 2,65
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 4,65
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that foo (<{jan=1` feb=2` march=3}>) is equal to <{jan=1` feb=2` march=4}>." + " The subject has the following different entries: {march=(4` 3)}");" is 189.,82
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 2,82
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 3,82
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 2,82
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,Magic Number,The method contains a magic number: 4,82
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtra,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <{jan=1` feb=2` march=3}> is equal to <{jan=1` feb=2}>. " + "The subject has the following extra entries: {march=3}");" is 165.,99
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtra,Magic Number,The method contains a magic number: 2,99
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtra,Magic Number,The method contains a magic number: 3,99
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtra,Magic Number,The method contains a magic number: 2,99
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureMissing,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <{jan=1` feb=2}> is equal to <{jan=1` feb=2` march=3}>. " + "The subject is missing the following entries: {march=3}");" is 166.,116
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureMissing,Magic Number,The method contains a magic number: 2,116
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureMissing,Magic Number,The method contains a magic number: 2,116
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureMissing,Magic Number,The method contains a magic number: 3,116
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,Long Statement,The length of the statement "assertThat(expected).hasMessage("Not true that <{jan=1` feb=2` march=3}> is equal to <{jan=1` feb=2` mar=3}>. " + "The subject is missing the following entries: {mar=3} " + "and has the following extra entries: {march=3}");" is 223.,133
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,Magic Number,The method contains a magic number: 2,133
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,Magic Number,The method contains a magic number: 3,133
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,Magic Number,The method contains a magic number: 2,133
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,Magic Number,The method contains a magic number: 3,133
+truth,com.google.common.truth,MapTest,mapIsNotEqualTo,Magic Number,The method contains a magic number: 2,151
+truth,com.google.common.truth,MapTest,mapIsNotEqualTo,Magic Number,The method contains a magic number: 3,151
+truth,com.google.common.truth,MapTest,mapIsEmptyWithFailure,Magic Number,The method contains a magic number: 5,172
+truth,com.google.common.truth,MapTest,mapIsNotEmpty,Magic Number,The method contains a magic number: 5,183
+truth,com.google.common.truth,MapTest,hasSize,Magic Number,The method contains a magic number: 2,200
+truth,com.google.common.truth,MapTest,hasSize,Magic Number,The method contains a magic number: 3,200
+truth,com.google.common.truth,MapTest,hasSize,Magic Number,The method contains a magic number: 4,200
+truth,com.google.common.truth,MapTest,hasSize,Magic Number,The method contains a magic number: 2,200
+truth,com.google.common.truth,MapTest,hasSizeNegative,Empty catch clause,The method has an empty catch block.,210
+truth,com.google.common.truth,MapTest,hasSizeNegative,Magic Number,The method contains a magic number: 2,210
+truth,com.google.common.truth,MultisetTest,multisetIsEmptyWithFailure,Magic Number,The method contains a magic number: 5,42
+truth,com.google.common.truth,MultisetTest,multisetIsNotEmpty,Magic Number,The method contains a magic number: 5,53
+truth,com.google.common.truth,MultisetTest,hasSize,Magic Number,The method contains a magic number: 2,70
+truth,com.google.common.truth,MultisetTest,hasSize,Magic Number,The method contains a magic number: 3,70
+truth,com.google.common.truth,MultisetTest,hasSize,Magic Number,The method contains a magic number: 4,70
+truth,com.google.common.truth,MultisetTest,hasSize,Magic Number,The method contains a magic number: 4,70
+truth,com.google.common.truth,MultisetTest,hasSizeNegative,Empty catch clause,The method has an empty catch block.,80
+truth,com.google.common.truth,MultisetTest,hasSizeNegative,Magic Number,The method contains a magic number: 2,80
+truth,com.google.common.truth,MultisetTest,hasCount,Magic Number,The method contains a magic number: 2,89
+truth,com.google.common.truth,MultisetTest,hasCountFail,Magic Number,The method contains a magic number: 3,97
+truth,com.google.common.truth,StringTest,hasLength,Magic Number,The method contains a magic number: 4,36
+truth,com.google.common.truth,StringTest,hasLengthFails,Magic Number,The method contains a magic number: 5,46
+truth,com.google.common.truth,StringTest,hasLengthNegative,Empty catch clause,The method has an empty catch block.,56
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Empty catch clause,The method has an empty catch block.,35
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2f,35
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4f,35
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2f,35
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4f,35
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2.2f,45
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5.4f,45
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 2.2f,45
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,Magic Number,The method contains a magic number: 5.4f,45
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2.2f,50
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3.3f,50
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 3.3f,50
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Magic Number,The method contains a magic number: 2.2f,50
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 2.2f,60
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 3.3f,60
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,Magic Number,The method contains a magic number: 4.4f,60
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Empty catch clause,The method has an empty catch block.,71
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2f,71
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4f,71
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 5.4f,71
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Magic Number,The method contains a magic number: 2.2f,71
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2.2f,81
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3.3f,81
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 3.3f,81
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,Magic Number,The method contains a magic number: 2.2f,81
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2.2f,86
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3.3f,86
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 2.2f,86
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 3.3f,86
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Magic Number,The method contains a magic number: 1.1f,86
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 2.2f,91
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentTypes,Magic Number,The method contains a magic number: 3.3f,91
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2.2f,96
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3.3f,96
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 2.2f,96
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Magic Number,The method contains a magic number: 3.3f,96
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 2.2f,106
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailSame,Magic Number,The method contains a magic number: 3.3f,106
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 2.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 0.00001,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 2.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 2.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 1000.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 2.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 2.0,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 1.00001,34
+truth,com.google.common.truth,DoubleTest,isWithinOf,Magic Number,The method contains a magic number: 3.0,34
+truth,com.google.common.truth,DoubleTest,isNotWithinOf,Magic Number,The method contains a magic number: 2.0,41
+truth,com.google.common.truth,DoubleTest,isNotWithinOf,Magic Number,The method contains a magic number: 0.1,41
+truth,com.google.common.truth,DoubleTest,isNotWithinOf,Magic Number,The method contains a magic number: 2.5,41
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 5.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.5,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 4.9,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 5.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.5,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 4.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 5.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.5,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 4.9,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 5.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.5,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 4.0,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Magic Number,The method contains a magic number: 0.00001,46
+truth,com.google.common.truth,DoubleTest,nanTolerances,Magic Number,The method contains a magic number: 2.0,102
+truth,com.google.common.truth,DoubleTest,infiniteTolerances,Magic Number,The method contains a magic number: 2.0,118
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,Magic Number,The method contains a magic number: 0.00001,134
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,Magic Number,The method contains a magic number: 0.00001,134
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,Magic Number,The method contains a magic number: 0.00001,134
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,Magic Number,The method contains a magic number: 0.00001,134
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,147
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,147
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,147
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,147
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Magic Number,The method contains a magic number: 0.00001,155
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Magic Number,The method contains a magic number: 0.00001,165
+truth,com.google.common.truth,DoubleTest,isPositiveInfinity,Magic Number,The method contains a magic number: 1.23,203
+truth,com.google.common.truth,DoubleTest,isNegativeInfinity,Magic Number,The method contains a magic number: 1.23,224
+truth,com.google.common.truth,DoubleTest,isNaN,Magic Number,The method contains a magic number: 1.23,245
+truth,com.google.common.truth,ObjectArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,98
+truth,com.google.common.truth,StringSubject,isEqualTo,Complex Method,Cyclomatic complexity of the method is 8,47
+truth,com.google.common.truth,AbstractArraySubject,getDisplaySubject,Long Statement,The length of the statement "return (internalCustomName() == null) ? "<(" + underlyingType() + "[]) "+ listRepresentation()+ ">" : this.internalCustomName();" is 128.,74
+truth,com.google.common.truth,AbstractArraySubject,failWithBadType,Long Statement,The length of the statement "String expectedType=(expected.getClass().isArray()) ? expected.getClass().getComponentType().getName() + "[]" : expected.getClass().getName();" is 142.,81
+truth,com.google.common.truth,AbstractArraySubject,failWithBadType,Long Statement,The length of the statement "failWithRawMessage("Incompatible types compared. expected: %s` actual: %s[]"`Platform.compressType(expectedType)`underlyingType());" is 131.,81
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isEqualTo,Long Statement,The length of the statement "throw new UnsupportedOperationException("Comparing raw equality of doubles is unsafe` " + "use isEqualTo(double[] array` double tolerance) instead.");" is 150.,51
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isEqualTo,Long Statement,The length of the statement "failWithRawMessage("Arrays are of different lengths. expected: %s` actual %s"`Arrays.asList(expectedArray)`Arrays.asList(actual));" is 130.,65
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isNotEqualTo,Long Statement,The length of the statement "throw new UnsupportedOperationException("Comparing raw equality of floats is unsafe` " + "use isNotEqualTo(double[] array` float tolerance) instead.");" is 151.,98
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,112
+truth,com.google.common.truth,SubjectUtils,accumulate,Magic Number,The method contains a magic number: 2,45
+truth,com.google.common.truth,MultimapSubject,isEqualTo,Complex Conditional,The conditional expression (getSubject() instanceof ListMultimap && other instanceof SetMultimap) || (getSubject() instanceof SetMultimap && other instanceof ListMultimap) is complex.,139
+truth,com.google.common.truth,MultimapSubject,isEqualTo,Long Statement,The length of the statement "if ((getSubject() instanceof ListMultimap && other instanceof SetMultimap) || (getSubject() instanceof SetMultimap && other instanceof ListMultimap)) {" is 151.,139
+truth,com.google.common.truth,MultimapSubject,isEqualTo,Long Statement,The length of the statement "failWithRawMessage("Not true that %s %s is equal to %s <%s>. " + "A %s cannot equal a %s if either is non-empty."`mapType1`getDisplaySubject()`mapType2`other`mapType1`mapType2);" is 177.,139
+truth,com.google.common.truth,MultimapSubject,containsExactly,Long Statement,The length of the statement "failWithRawMessage("Not true that %s %s <%s>. It is missing <%s> and has unexpected items <%s>"`getDisplaySubject()`failVerb`expectedMultimap`countDuplicatesMultimap(missing)`countDuplicatesMultimap(extra));" is 207.,173
+truth,com.google.common.truth,Subject,fail,Long Statement,The length of the statement "boolean needsDisambiguation=(part != null) && (getSubject() != null) && getSubject().toString().equals(part.toString())&& !getSubject().getClass().equals(part.getClass());" is 171.,223
+truth,com.google.common.truth,Subject,failWithBadResults,Long Statement,The length of the statement "String message=format("Not true that %s %s <%s>. It %s <%s>"`getDisplaySubject()`verb`expected`failVerb`((actual == null) ? "null reference" : actual));" is 152.,286
+truth,com.google.common.truth,PrimitiveLongArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,StringUtil,format,Magic Number,The method contains a magic number: 16,37
+truth,com.google.common.truth,StringUtil,format,Magic Number,The method contains a magic number: 2,37
+truth,com.google.common.truth,PrimitiveByteArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,AbstractVerb,getFailureStrategy,Long Statement,The length of the statement "return (getFailureMessage() != null) ? new MessagePrependingFailureStrategy(failureStrategy`getFailureMessage()) : failureStrategy;" is 131.,32
+truth,com.google.common.truth,PrimitiveCharArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,Platform,stripIfInPackage,Complex Conditional,The conditional expression type.startsWith(packagePrefix) && (type.indexOf('.'`packagePrefix.length()) == -1) && Character.isUpperCase(type.charAt(packagePrefix.length())) is complex.,123
+truth,com.google.common.truth,Platform,stripIfInPackage,Long Statement,The length of the statement "if (type.startsWith(packagePrefix) && (type.indexOf('.'`packagePrefix.length()) == -1) && Character.isUpperCase(type.charAt(packagePrefix.length()))) {" is 151.,123
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isEqualTo,Long Statement,The length of the statement "throw new UnsupportedOperationException("Comparing raw equality of floats is unsafe` " + "use isEqualTo(float[] array` float tolerance) instead.");" is 147.,51
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isEqualTo,Long Statement,The length of the statement "failWithRawMessage("Arrays are of different lengths. expected: %s` actual %s"`Arrays.asList(expectedArray)`Arrays.asList(actual));" is 130.,65
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isNotEqualTo,Long Statement,The length of the statement "throw new UnsupportedOperationException("Comparing raw equality of floats is unsafe` " + "use isNotEqualTo(float[] array` float tolerance) instead.");" is 150.,98
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,112
+truth,com.google.common.truth,MapSubject,isEqualTo,Complex Method,Cyclomatic complexity of the method is 8,40
+truth,com.google.common.truth,PrimitiveIntArraySubject,isNotEqualTo,Empty catch clause,The method has an empty catch block.,67
+truth,com.google.common.truth,IteratingVerb,instantiate,Long Parameter List,The method has 5 parameters. ,74
+truth,com.google.common.truth,IterableSubject,containsExactly,Long Statement,The length of the statement "return containsExactly("contains exactly"`expected`varargs != null && varargs.length == 1 && varargs[0] instanceof Iterable);" is 125.,232
+truth,com.google.common.truth,IterableSubject,containsExactly,Complex Method,Cyclomatic complexity of the method is 11,264
+truth,com.google.common.truth,IterableSubject,containsExactly,Long Statement,The length of the statement "String failSuffix=addElementsInWarning ? ". Passing an iterable to the varargs method containsExactly(Object...) is " + "often not the correct thing to do. Did you mean to call " + "containsExactlyElementsIn(Iterable) instead?" : "";" is 233.,264
+truth,com.google.common.truth,IterableSubject,containsExactly,Long Statement,The length of the statement "failWithRawMessage("Not true that %s %s <%s>. It is missing <%s> and has unexpected items <%s>%s"`getDisplaySubject()`failVerb`required`countDuplicates(missing)`countDuplicates(extra)`failSuffix);" is 196.,264
+truth,com.google.common.truth,IterableSubject,containsExactly,Long Statement,The length of the statement "failWithBadResultsAndSuffix(failVerb`required`"has unexpected items"`countDuplicates(Lists.newArrayList(actualIter))`failSuffix);" is 129.,264
+truth,com.google.common.truth,IterableSubject,containsExactly,Long Statement,The length of the statement "failWithBadResultsAndSuffix(failVerb`required`"is missing"`countDuplicates(Lists.newArrayList(requiredIter))`failSuffix);" is 121.,264
+truth,com.google.common.truth,IterableSubject,failWithBadResultsAndSuffix,Long Parameter List,The method has 5 parameters. ,358
+truth,com.google.common.truth,IterableSubject,failWithBadResultsAndSuffix,Long Statement,The length of the statement "failWithRawMessage("Not true that %s %s <%s>. It %s <%s>%s"`getDisplaySubject()`verb`expected`failVerb`((actual == null) ? "null reference" : actual)`suffix);" is 158.,358
+truth,com.google.common.truth.extension,EmployeeTest,testEmployee,Magic Number,The method contains a magic number: 42,34
+truth,com.google.common.truth.extension,EmployeeTest,testEmployee,Magic Number,The method contains a magic number: 41,34
+truth,com.google.common.truth.extension,EmployeeTest,testEmployee,Magic Number,The method contains a magic number: 37802,34
+truth,com.google.common.truth.gwt,TruthGwtTest,testInteger,Magic Number,The method contains a magic number: 457923,58
+truth,com.google.common.truth.gwt,TruthGwtTest,testInteger,Magic Number,The method contains a magic number: 457923,58
+truth,com.google.common.truth.gwt,TruthGwtTest,testInteger,Magic Number,The method contains a magic number: 457923,58
+truth,com.google.common.truth.gwt,TruthGwtTest,testIterable,Magic Number,The method contains a magic number: 2,126
+truth,com.google.common.truth.gwt,TruthGwtTest,testIterable,Magic Number,The method contains a magic number: 3,126
+truth,com.google.common.truth.gwt,TruthGwtTest,testIterable,Magic Number,The method contains a magic number: 2,126
+truth,com.google.common.truth.gwt,TruthGwtTest,testIterable,Magic Number,The method contains a magic number: 3,126
+truth,com.google.common.truth.gwt,TruthGwtTest,testCollection,Magic Number,The method contains a magic number: 2,130
+truth,com.google.common.truth.gwt,TruthGwtTest,testCollection,Magic Number,The method contains a magic number: 3,130
+truth,com.google.common.truth.gwt,TruthGwtTest,testCollection,Magic Number,The method contains a magic number: 2,130
+truth,com.google.common.truth.gwt,TruthGwtTest,testCollection,Magic Number,The method contains a magic number: 3,130
+truth,com.google.common.truth.gwt,TruthGwtTest,testList,Magic Number,The method contains a magic number: 2,134
+truth,com.google.common.truth.gwt,TruthGwtTest,testList,Magic Number,The method contains a magic number: 3,134
+truth,com.google.common.truth.gwt,TruthGwtTest,testList,Magic Number,The method contains a magic number: 2,134
+truth,com.google.common.truth.gwt,TruthGwtTest,testList,Magic Number,The method contains a magic number: 3,134
+truth,com.google.common.truth.codegen,CompilingClassLoader,compileSourceCodeToByteCode,Long Statement,The length of the statement "JavaCompiler.CompilationTask compilationTask=javaCompiler.getTask(null`fileManager`diagnosticListener`options`null`singleton(javaFile));" is 136.,139
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,build,Long Statement,The length of the statement "String code=String.format(CLASS_TEMPLATE`subjectClass.getPackage().getName()`subjectClass.getSimpleName()`targetType.getCanonicalName()`methodWrappers.toString());" is 163.,122
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,appendMethodWrapper,Long Statement,The length of the statement "boolean shouldWrap=(method.getDeclaringClass() != Subject.class) && !method.getDeclaringClass().equals(Object.class) && !(isFinal(modifiers) || isPrivate(modifiers) || isStatic(modifiers));" is 189.,142
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,appendMethodWrapper,Long Statement,The length of the statement "code.append(String.format(WRAPPER_METHOD_TEMPLATE`stringVisibility(modifiers)`method.getReturnType().getCanonicalName()`method.getName()`methodSignature(method.getParameterTypes()`method.getParameterAnnotations())`targetType.getCanonicalName()`subjectType.getCanonicalName()`methodParameterList(method.getParameterTypes().length)));" is 332.,142
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThat,Magic Number,The method contains a magic number: 5,33
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThat,Magic Number,The method contains a magic number: 2,33
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThat,Magic Number,The method contains a magic number: 3,33
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThatFailure,Magic Number,The method contains a magic number: 5,38
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThatFailure,Magic Number,The method contains a magic number: 4,38
+truth,com.google.common.truth.delegation,DelegationTest,customTypeProposition,Magic Number,The method contains a magic number: 5,50
+truth,com.google.common.truth.delegation,DelegationTest,customTypeProposition,Magic Number,The method contains a magic number: 2,50
+truth,com.google.common.truth.delegation,DelegationTest,customTypeProposition,Magic Number,The method contains a magic number: 3,50
+truth,com.google.common.truth.delegation,DelegationTest,customTypePropositionWithFailure,Magic Number,The method contains a magic number: 5,58
+truth,com.google.common.truth.delegation,DelegationTest,customTypePropositionWithFailure,Magic Number,The method contains a magic number: 4,58

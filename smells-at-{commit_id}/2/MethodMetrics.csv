@@ -1,0 +1,412 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+truth,org.truth0,AbstractVerbTest,fail,3,1,2,37,0,,
+truth,org.truth0,AbstractVerbTest,noArgFail,4,1,0,44,1,org.truth0.AbstractVerb,org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0,AbstractVerbTest,argFail,4,1,1,49,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0,IterationOverSubjectTest,collectionItemsAreGreaterThan,13,2,0,38,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.AbstractVerb
+truth,org.truth0,IterationOverSubjectTest,collectionItemsContainText,13,2,0,51,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject; org.truth0.AbstractVerb
+truth,org.truth0,IterationOverSubjectTest,iterable,3,1,1,64,0,,
+truth,org.truth0,ExampleTest,stringContains,3,1,0,36,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0,ExampleTest,listHasElements,5,1,0,40,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0,ExampleTest,equalityFail,10,1,0,51,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0,ExampleTest,divideBySelf,4,1,1,63,0,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0,ExampleTest,expectRange,6,1,0,70,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.IntegerSubject
+truth,org.truth0,ExampleTest,customTypeCompares,3,1,0,77,1,,
+truth,org.truth0,ExpectFailureTest,expectFailNotEquals,3,1,0,41,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0,ExpectFailureTest,expectFailStringContains,3,1,0,45,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0,ExpectFailureTest,expectFailContainsAllOf,3,1,0,49,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0,ExpectFailureTest,expectFailContainsAnyOf,3,1,0,53,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0,ExpectTest,apply,4,1,3,43,0,org.truth0.Expect,org.truth0.Expect
+truth,org.truth0,ExpectTest,expectTrue,3,1,0,50,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0,ExpectTest,expectFail,9,1,0,55,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0,ExpectTest,warnWhenExpectIsNotRule,5,1,0,66,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0,Truth,fail,3,1,1,57,0,,
+truth,org.truth0,Truth,failComparing,3,1,3,60,0,org.truth0.util.ComparisonUtil,org.truth0.util.ComparisonUtil
+truth,org.truth0,AbstractVerb,AbstractVerb,3,1,1,10,0,,
+truth,org.truth0,AbstractVerb,getFailureStrategy,3,1,0,14,0,,
+truth,org.truth0,AbstractVerb,fail,3,1,0,18,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0,AbstractVerb,fail,3,1,1,25,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0,AbstractVerb,about,3,1,1,32,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,TestVerb,3,1,1,37,0,,
+truth,org.truth0,TestVerb,that,3,1,1,41,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,45,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,49,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,53,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,57,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,61,0,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,65,0,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,69,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,73,0,,
+truth,org.truth0,TestVerb,that,3,1,1,77,0,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject; org.truth0.AbstractVerb
+truth,org.truth0,Truth,failComparing,3,1,3,60,0,,
+truth,org.truth0,Truth,fail,3,1,1,69,0,,
+truth,org.truth0,Truth,failComparing,3,1,3,72,0,org.truth0.util.ComparisonUtil,org.truth0.util.ComparisonUtil
+truth,org.truth0,Truth,fail,3,1,2,76,0,,
+truth,org.truth0,Expect,create,3,1,0,70,0,,
+truth,org.truth0,Expect,Expect,4,1,1,74,0,,
+truth,org.truth0,Expect,getFailureStrategy,7,2,0,79,0,,
+truth,org.truth0,Expect,apply,22,4,3,89,0,,
+truth,org.truth0,Expect,evaluate,17,4,0,92,0,,
+truth,org.truth0,AbstractVerb,AbstractVerb,3,1,1,16,0,,
+truth,org.truth0,AbstractVerb,getFailureStrategy,3,1,0,20,0,,
+truth,org.truth0,AbstractVerb,fail,3,1,0,24,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0,AbstractVerb,fail,3,1,1,31,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0,AbstractVerb,about,3,1,1,38,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,AbstractVerb,in,3,1,1,70,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,FailureStrategy,fail,3,1,1,28,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0,FailureStrategy,fail,3,1,2,32,0,,
+truth,org.truth0,FailureStrategy,failComparing,3,1,3,36,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy; org.truth0.util.ComparisonUtil
+truth,org.truth0,IteratingVerb,load,3,1,1,30,0,org.truth0.IteratingVerb,org.truth0.IteratingVerb
+truth,org.truth0,IteratingVerb,IteratingVerb,4,1,2,37,0,,
+truth,org.truth0,IteratingVerb,thatEach,3,1,1,42,0,org.truth0.IteratingVerb,org.truth0.IteratingVerb; org.truth0.AbstractVerb
+truth,org.truth0,IteratingVerb,wrap,11,1,3,47,0,org.truth0.IteratingVerb,org.truth0.IteratingVerb
+truth,org.truth0,IteratingVerb,instantiate,18,1,5,59,0,,
+truth,org.truth0,IteratingVerb,compileWrapperClass,18,1,1,76,0,org.truth0.codegen.IteratingWrapperClassBuilder,org.truth0.codegen.IteratingWrapperClassBuilder
+truth,org.truth0,TestVerb,TestVerb,3,1,1,42,0,,
+truth,org.truth0,TestVerb,that,3,1,1,46,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,50,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,56,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,61,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,66,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,71,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,76,0,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,82,0,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,88,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.AbstractVerb
+truth,org.truth0,TestVerb,that,3,1,1,94,0,,
+truth,org.truth0,TestVerb,that,3,1,1,100,0,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject; org.truth0.AbstractVerb
+truth,org.truth0.gwt,TruthGwtTest,getModuleName,3,1,0,34,0,,
+truth,org.truth0.gwt,TruthGwtTest,testBoolean,4,1,0,38,0,org.truth0.subjects.BooleanSubject,org.truth0.subjects.BooleanSubject
+truth,org.truth0.gwt,TruthGwtTest,testInteger,9,1,0,43,0,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.AbstractVerb
+truth,org.truth0.gwt,TruthGwtTest,testString,11,1,0,53,0,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject; org.truth0.AbstractVerb
+truth,org.truth0.gwt,TruthGwtTest,testIterable,3,1,0,65,0,,
+truth,org.truth0.gwt,TruthGwtTest,testCollection,3,1,0,69,0,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.gwt,TruthGwtTest,testList,3,1,0,73,0,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.gwt,TruthGwtTest,testDefault,3,1,0,77,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_PlainClass,10,1,0,79,1,org.truth0.codegen.IteratingWrapperClassBuilder,org.truth0.codegen.IteratingWrapperClassBuilder; org.truth0.subjects.StringSubject
+truth,org.truth0.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_InnerClass,10,1,0,91,1,org.truth0.codegen.IteratingWrapperClassBuilder,org.truth0.codegen.IteratingWrapperClassBuilder; org.truth0.subjects.StringSubject
+truth,org.truth0.codegen,BarSubject,getSubject,3,1,2,32,0,,
+truth,org.truth0.codegen,BarSubject,BarSubject,3,1,2,37,0,,
+truth,org.truth0.codegen,BarSubject,startsWith,5,2,1,41,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.codegen,CompilingClassLoader,CompilingClassLoader,6,2,4,91,0,org.truth0.codegen.CompilingClassLoader,org.truth0.codegen.CompilingClassLoader
+truth,org.truth0.codegen,CompilingClassLoader,findClass,7,2,1,105,0,,
+truth,org.truth0.codegen,CompilingClassLoader,compileSourceCodeToByteCode,10,1,3,118,0,,
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,IteratingWrapperClassBuilder,4,1,1,97,0,,
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,build,11,2,0,102,0,org.truth0.util.ReflectionUtil,org.truth0.util.ReflectionUtil; org.truth0.codegen.IteratingWrapperClassBuilder
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,appendMethodWrapper,7,2,4,121,0,org.truth0.codegen.IteratingWrapperClassBuilder,org.truth0.codegen.IteratingWrapperClassBuilder
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,methodParameterList,8,3,1,148,0,,
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,methodSignature,14,5,2,157,0,,
+truth,org.truth0.codegen,IteratingWrapperClassBuilder,stringVisibility,11,3,1,173,0,,
+truth,org.truth0.delegatetest,DelegationTest,customTypeProposition,3,1,0,30,1,,
+truth,org.truth0.delegatetest,DelegationTest,customTypePropositionWithFailure,10,1,0,34,1,org.truth0.AbstractVerb,org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.delegatetest,Foo,Foo,3,1,1,29,0,,
+truth,org.truth0.delegatetest,FooSubject,getSubject,3,1,2,32,0,,
+truth,org.truth0.delegatetest,FooSubject,FooSubject,3,1,2,37,0,,
+truth,org.truth0.delegatetest,FooSubject,matches,5,2,1,41,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,SubjectFactoryReflectionTest,genericErasureWorkaround,9,1,0,36,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,SubjectFactoryReflectionTest,getSubject,3,1,2,39,0,,
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasNoSuchField,9,1,0,33,1,org.truth0.TestVerb,org.truth0.TestVerb; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicField,3,1,0,43,1,org.truth0.TestVerb,org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasFieldWithNullSubject,10,1,0,47,1,org.truth0.TestVerb,org.truth0.TestVerb; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicFieldWithValue,3,1,0,58,1,org.truth0.TestVerb,org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicFieldWithWrongValue,9,1,0,62,1,org.truth0.TestVerb,org.truth0.TestVerb; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicFieldWithNullValue,3,1,0,73,1,org.truth0.TestVerb,org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicFieldWithWrongNullValue,9,1,0,77,1,org.truth0.TestVerb,org.truth0.TestVerb; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPublicFieldWithValueInBadField,9,1,0,88,1,org.truth0.TestVerb,org.truth0.TestVerb; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasPrivateField,3,1,0,98,1,org.truth0.TestVerb,org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectPropertiesTest,testHasProvidedFieldWithValue,3,1,0,102,1,org.truth0.TestVerb,org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,identityOfNulls,4,1,0,36,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,identityOfNullsFailure,10,1,0,41,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,identityOfObject,5,1,0,51,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,identityOfObjectFailure,21,1,0,57,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,toString,3,1,0,58,0,,
+truth,org.truth0.subjects,SubjectTest,toString,3,1,0,59,0,,
+truth,org.truth0.subjects,SubjectTest,identityOfObjectFailureWithComparableObjects,11,1,0,69,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,isNull,4,1,0,80,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,isNullFail,10,1,0,85,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,isNotNull,4,1,0,95,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,isNotNullFail,10,1,0,100,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,equalityOfNulls,4,1,0,110,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,equalityOfNullsFailure,10,1,0,115,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,equalityOfObjectBasedOnIdentity,5,1,0,125,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,equalityOfObjectFailure,21,1,0,131,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,toString,3,1,0,132,0,,
+truth,org.truth0.subjects,SubjectTest,toString,3,1,0,133,0,,
+truth,org.truth0.subjects,SubjectTest,equalityOfComparableObjects,5,1,0,142,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,equalityOfComparableObjectsFailure,11,1,0,148,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,inequalityOfNulls,4,1,0,159,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,inequalityOfNullsFailure,10,1,0,164,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,inequalityOfObjectBasedOnIdentity,5,1,0,174,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,inequalityOfObjectFailure,16,1,0,180,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,toString,3,1,0,181,0,,
+truth,org.truth0.subjects,SubjectTest,inequalityOfComparableObjects,5,1,0,191,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb
+truth,org.truth0.subjects,SubjectTest,inequalityOfComparableObjectsFailure,11,1,0,197,1,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.TestVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,isA,3,1,0,208,1,,
+truth,org.truth0.subjects,SubjectTest,isAFail,9,1,0,212,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectTest,isNotA,3,1,0,221,1,,
+truth,org.truth0.subjects,SubjectTest,isNotAFail,9,1,0,225,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceWithEmptyList,3,1,0,36,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceWithSingleton,3,1,0,40,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceAtEnd,3,1,0,44,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceAtStart,3,1,0,48,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceWithManyFalseStarts,3,1,0,52,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceTooShortFailure,10,1,0,56,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,listContainsSequenceNotContiguousFailure,10,1,0,66,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,listIsOrdered,5,1,0,76,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,isOrderedFailure,10,1,0,82,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,isOrderedWithNonComparableElementsFailure,8,1,0,92,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listIsPartiallyOrdered,5,1,0,99,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,isPartiallyOrderedFailure,10,1,0,105,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,isPartiallyOrderedWithNonComparableElementsFailure,8,1,0,115,1,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListTest,listIsOrderedWithComparator,5,1,0,122,1,,
+truth,org.truth0.subjects,ListTest,listIsOrderedWithComparatorFailure,10,1,0,129,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,listIsPartiallyOrderedWithComparator,5,1,0,139,1,,
+truth,org.truth0.subjects,ListTest,listIsPartiallyOrderedWithComparatorFailure,10,1,0,146,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ListTest,compare,3,1,2,157,0,,
+truth,org.truth0.subjects,CollectionTest,collectionHasItem,3,1,0,40,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasItemWithNull,3,1,0,44,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasItemFailure,9,1,0,48,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAnyOf,3,1,0,57,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAnyOfWithNull,3,1,0,61,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAnyOfWithNullInThirdAndFinalPosition,3,1,0,65,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAnyOfFailure,9,1,0,69,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithMany,3,1,0,78,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithDuplicates,3,1,0,82,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithNull,3,1,0,86,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithNullAtThirdAndFinalPosition,3,1,0,90,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfFailure,11,1,0,94,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithDuplicatesFailure,12,1,0,105,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithDuplicateMissingElements,11,1,0,121,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfWithNullFailure,11,1,0,132,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrder,3,1,0,143,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrderWithNull,3,1,0,147,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrderWithFailure,10,1,0,151,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithMany,3,1,0,161,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyOutOfOrder,3,1,0,165,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicates,3,1,0,169,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicatesOutOfOrder,3,1,0,173,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithNull,3,1,0,177,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithNullOutOfOrder,3,1,0,181,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyMissingItemFailure,11,1,0,185,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyUnexpectedItemFailure,11,1,0,196,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicatesNotEnoughItemsFailure,12,1,0,207,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicatesMissingItemFailure,12,1,0,219,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicatesUnexpectedItemFailure,12,1,0,231,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithDuplicateMissingElements,11,1,0,247,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyWithNullFailure,11,1,0,258,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrder,3,1,0,269,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrderWithNull,3,1,0,273,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrderWithFailure,10,1,0,277,1,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionIsEmpty,3,1,0,287,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionIsEmptyWithFailure,10,1,0,291,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrderHackedWithTooManyItemsFailure,6,1,0,301,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrderHackedWithTooFewItemsFailure,6,1,0,312,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasAllOfInOrderHackedWithNoItemsFailure,6,1,0,323,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrderHackedWithTooManyItemsFailure,6,1,0,334,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrderHackedWithTooFewItemsFailure,6,1,0,345,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,collectionHasExactlyInOrderHackedWithNoItemsFailure,6,1,0,356,1,org.truth0.subjects.CollectionSubject,org.truth0.subjects.CollectionSubject
+truth,org.truth0.subjects,CollectionTest,validateHackedFailure,10,1,1,367,0,org.truth0.subjects.Ordered,org.truth0.subjects.Ordered; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,CollectionTest,collection,3,1,1,378,0,,
+truth,org.truth0.subjects,ClassTest,testDeclaresField_NoSuchField,9,1,0,33,1,org.truth0.subjects.ClassSubject,org.truth0.subjects.ClassSubject; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ClassTest,testDeclaresField_Public,3,1,0,43,1,org.truth0.subjects.ClassSubject,org.truth0.subjects.ClassSubject
+truth,org.truth0.subjects,ClassTest,testDeclaresField_NullSubject,10,1,0,47,1,org.truth0.subjects.ClassSubject,org.truth0.subjects.ClassSubject; org.truth0.AbstractVerb; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,ClassTest,testDeclaresField_Private,3,1,0,58,1,org.truth0.subjects.ClassSubject,org.truth0.subjects.ClassSubject
+truth,org.truth0.subjects,IntegerTest,simpleEquality,4,1,0,40,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,intIsInt,3,1,0,45,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,simpleInequality,3,1,0,49,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,equalityFail,9,1,0,53,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IntegerTest,inequalityFail,9,1,0,62,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IntegerTest,additionAssumptionFail,8,1,0,71,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,inclusiveRangeContainment,5,1,0,78,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,inclusiveRangeContainmentFailure,16,1,0,84,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IntegerTest,inclusiveRangeContainmentInversionError,8,1,0,99,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,exclusiveRangeContainment,4,1,0,106,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,exclusiveRangeContainmentFailure,9,1,0,111,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IntegerTest,exclusiveRangeContainmentInversionError,8,1,0,120,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,equalityOfNulls,3,1,0,127,1,,
+truth,org.truth0.subjects,IntegerTest,equalityOfNullsFail,16,1,0,131,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IntegerTest,inequalityOfNulls,4,1,0,146,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject
+truth,org.truth0.subjects,IntegerTest,inequalityOfNullsFail,9,1,0,151,1,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,BooleanTest,isTrue,3,1,0,34,1,org.truth0.subjects.BooleanSubject,org.truth0.subjects.BooleanSubject
+truth,org.truth0.subjects,BooleanTest,isTrueFailing,9,1,0,38,1,org.truth0.subjects.BooleanSubject,org.truth0.subjects.BooleanSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,BooleanTest,isFalse,3,1,0,47,1,org.truth0.subjects.BooleanSubject,org.truth0.subjects.BooleanSubject
+truth,org.truth0.subjects,BooleanTest,isFalseFailing,9,1,0,51,1,org.truth0.subjects.BooleanSubject,org.truth0.subjects.BooleanSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iteratesOver,3,1,0,39,1,,
+truth,org.truth0.subjects,IterableTest,iteratesOverAsList,3,1,0,43,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject
+truth,org.truth0.subjects,IterableTest,iteratesOverLegacy,3,1,0,47,1,,
+truth,org.truth0.subjects,IterableTest,iteratesOver2,2,1,0,52,1,,
+truth,org.truth0.subjects,IterableTest,iteratesOverEmpty,3,1,0,57,1,,
+truth,org.truth0.subjects,IterableTest,iteratesOverWithOrderingFailure,9,1,0,61,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iteratesOverWithTooManyItemsFailure,9,1,0,70,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iteratesOverWithTooFewItemsFailure,9,1,0,79,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iteratesOverWithIncompatibleItems,9,1,0,88,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iteratesOverAsListWithIncompatibleItems,9,1,0,97,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iterableIsEmpty,3,1,0,107,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject
+truth,org.truth0.subjects,IterableTest,iterableIsEmptyWithFailure,10,1,0,111,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iterableIsNotEmpty,3,1,0,121,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject
+truth,org.truth0.subjects,IterableTest,iterableIsNotEmptyWithFailure,10,1,0,125,1,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,IterableTest,iterable,3,1,1,135,0,,
+truth,org.truth0.subjects,MapTest,mapIsEmpty,3,1,0,38,1,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject
+truth,org.truth0.subjects,MapTest,mapIsEmptyWithFailure,10,1,0,42,1,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapIsNotEmpty,3,1,0,52,1,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject
+truth,org.truth0.subjects,MapTest,mapIsNotEmptyWithFailure,10,1,0,56,1,org.truth0.subjects.MapSubject,org.truth0.subjects.MapSubject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapHasKey,3,1,0,66,1,,
+truth,org.truth0.subjects,MapTest,failMapHasKey,10,1,0,70,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,failMapHasKeyWithNull,10,1,0,80,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapLacksKey,3,1,0,90,1,,
+truth,org.truth0.subjects,MapTest,failMapLacksKey,10,1,0,94,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapHasKeyWithValue,3,1,0,104,1,,
+truth,org.truth0.subjects,MapTest,mapHasKeyWithNullValueNullExpected,3,1,0,109,1,,
+truth,org.truth0.subjects,MapTest,failMapHasKeyWithValue,10,1,0,114,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,failMapHasKeyWithNullValuePresentExpected,10,1,0,125,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,failMapHasKeyWithPresentValueNullExpected,10,1,0,136,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapHasValue,3,1,0,147,1,,
+truth,org.truth0.subjects,MapTest,mapHasValueWithNull,3,1,0,151,1,,
+truth,org.truth0.subjects,MapTest,failMapHasValue,10,1,0,155,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,mapLacksValue,3,1,0,165,1,,
+truth,org.truth0.subjects,MapTest,failMapLacksValue,10,1,0,169,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,MapTest,map,8,3,3,180,0,,
+truth,org.truth0.subjects,StringTest,stringContains,3,1,0,36,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringContainsFail,10,1,0,40,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringEquality,3,1,0,51,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringEqualityToNull,10,1,0,55,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringEqualityFail,10,1,0,66,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject; org.truth0.TestVerb
+truth,org.truth0.subjects,StringTest,stringStartsWith,3,1,0,77,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringStartsWithFail,10,1,0,81,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringEndsWith,3,1,0,92,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringEndsWithFail,10,1,0,96,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,emptyStringTests,8,1,0,107,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringNullNullTests,6,1,0,116,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringNullContains,10,1,0,123,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringNullStartsWith,10,1,0,134,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringTest,stringNullEndsWith,10,1,0,145,1,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,SubjectFactory,SubjectFactory,2,1,0,30,0,,
+truth,org.truth0.subjects,SubjectFactory,getSubject,0,1,2,32,0,,
+truth,org.truth0.subjects,Subject,Subject,4,1,2,36,0,,
+truth,org.truth0.subjects,Subject,is,3,1,1,41,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNull,5,2,0,45,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNotNull,5,2,0,51,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isEqualTo,12,4,1,57,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNotEqualTo,12,4,1,69,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,getSubject,3,1,0,81,0,,
+truth,org.truth0.subjects,Subject,getDisplaySubject,3,1,0,85,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,check,3,1,0,89,0,,
+truth,org.truth0.subjects,Subject,fail,8,2,2,93,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithBadResults,5,1,4,108,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithCustomSubject,5,1,3,121,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithoutSubject,3,1,1,135,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithRawMessage,3,1,2,144,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,format,11,3,2,154,0,,
+truth,org.truth0.subjects,Subject,equals,4,1,1,168,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,hashCode,3,1,0,178,0,,
+truth,org.truth0.subjects,CollectionSubject,create,3,1,2,36,0,,
+truth,org.truth0.subjects,CollectionSubject,CollectionSubject,3,1,2,43,0,,
+truth,org.truth0.subjects,CollectionSubject,isEmpty,5,2,0,47,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,CollectionSubject,has,62,10,0,56,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,CollectionSubject,item,5,2,1,59,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,CollectionSubject,anyOf,3,1,1,65,0,org.truth0.subjects.SubjectUtils,org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,CollectionSubject,anyOf,3,1,3,68,0,,
+truth,org.truth0.subjects,CollectionSubject,anyFrom,8,3,1,71,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,CollectionSubject,allOf,3,1,1,80,0,org.truth0.subjects.SubjectUtils,org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,CollectionSubject,allOf,3,1,3,83,0,,
+truth,org.truth0.subjects,CollectionSubject,allFrom,10,3,1,86,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,CollectionSubject,exactly,3,1,1,98,0,org.truth0.subjects.SubjectUtils,org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,CollectionSubject,exactly,3,1,3,101,0,,
+truth,org.truth0.subjects,CollectionSubject,exactlyAs,16,5,1,104,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,StringSubject,StringSubject,3,1,2,31,0,,
+truth,org.truth0.subjects,StringSubject,getDisplaySubject,3,1,0,35,0,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject; org.truth0.subjects.Subject
+truth,org.truth0.subjects,StringSubject,is,3,1,1,39,0,org.truth0.subjects.StringSubject,org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringSubject,isEqualTo,28,8,1,43,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.StringSubject; org.truth0.FailureStrategy
+truth,org.truth0.subjects,StringSubject,isNull,5,2,0,71,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringSubject,contains,10,4,1,77,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringSubject,startsWith,10,4,1,87,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringSubject,endsWith,10,4,1,97,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.subjects.StringSubject
+truth,org.truth0.subjects,StringSubject,getSubject,3,1,2,109,0,,
+truth,org.truth0.subjects,StringSubject,quote,3,1,1,114,0,,
+truth,org.truth0.subjects,SubjectFactory,SubjectFactory,2,1,0,42,0,,
+truth,org.truth0.subjects,SubjectFactory,getSubject,0,1,2,44,0,,
+truth,org.truth0.subjects,SubjectFactory,getSubjectClass,3,1,0,46,0,,
+truth,org.truth0.subjects,SubjectUtils,accumulate,3,1,1,36,0,,
+truth,org.truth0.subjects,SubjectUtils,accumulate,12,2,3,39,0,,
+truth,org.truth0.subjects,SubjectUtils,countOf,9,3,2,54,0,,
+truth,org.truth0.subjects,SubjectUtils,countDuplicates,10,2,1,64,0,org.truth0.subjects.SubjectUtils,org.truth0.subjects.SubjectUtils
+truth,org.truth0.subjects,Subject,Subject,4,1,2,41,0,,
+truth,org.truth0.subjects,Subject,is,3,1,1,46,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNull,5,2,0,50,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNotNull,5,2,0,56,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isEqualTo,12,4,1,62,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNotEqualTo,12,4,1,74,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isA,5,2,1,86,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,isNotA,5,2,1,93,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,getSubject,3,1,0,100,0,,
+truth,org.truth0.subjects,Subject,getDisplaySubject,3,1,0,104,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,check,3,1,0,108,0,,
+truth,org.truth0.subjects,Subject,fail,8,2,2,112,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithBadResults,4,1,4,127,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithCustomSubject,4,1,3,143,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithoutSubject,3,1,1,159,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,failWithRawMessage,3,1,2,168,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,hasField,55,3,1,184,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy; org.truth0.util.ReflectionUtil
+truth,org.truth0.subjects,Subject,withValue,3,1,1,191,0,,
+truth,org.truth0.subjects,Subject,withValue,3,1,1,209,0,,
+truth,org.truth0.subjects,Subject,withValue,22,2,1,215,0,org.truth0.FailureStrategy,org.truth0.FailureStrategy
+truth,org.truth0.subjects,Subject,equals,4,1,1,248,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,Subject,hashCode,3,1,0,258,0,,
+truth,org.truth0.subjects,DefaultSubject,DefaultSubject,3,1,2,26,0,,
+truth,org.truth0.subjects,ListSubject,create,3,1,2,29,0,,
+truth,org.truth0.subjects,ListSubject,ListSubject,3,1,2,35,0,,
+truth,org.truth0.subjects,ListSubject,containsSequence,21,6,1,39,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,ListSubject,isOrdered,10,2,0,64,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListSubject,check,5,2,2,73,0,,
+truth,org.truth0.subjects,ListSubject,isPartiallyOrdered,10,2,0,82,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListSubject,check,5,2,2,91,0,,
+truth,org.truth0.subjects,ListSubject,isOrdered,10,2,1,100,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListSubject,check,5,2,2,109,0,,
+truth,org.truth0.subjects,ListSubject,isPartiallyOrdered,10,2,1,117,0,org.truth0.subjects.ListSubject,org.truth0.subjects.ListSubject
+truth,org.truth0.subjects,ListSubject,check,5,2,2,126,0,,
+truth,org.truth0.subjects,ListSubject,pairwiseCheck,11,3,1,134,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IntegerSubject,IntegerSubject,3,1,2,33,0,,
+truth,org.truth0.subjects,IntegerSubject,IntegerSubject,3,1,2,37,0,,
+truth,org.truth0.subjects,IntegerSubject,isInclusivelyInRange,6,2,2,41,0,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.Subject
+truth,org.truth0.subjects,IntegerSubject,isBetween,6,2,2,55,0,org.truth0.subjects.IntegerSubject,org.truth0.subjects.IntegerSubject; org.truth0.subjects.Subject
+truth,org.truth0.subjects,IntegerSubject,ensureOrderedBoundaries,5,2,2,69,0,,
+truth,org.truth0.subjects,IntegerSubject,isEqualTo,3,1,1,81,0,,
+truth,org.truth0.subjects,IntegerSubject,isEqualTo,12,4,1,85,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IntegerSubject,isNotEqualTo,3,1,1,97,0,,
+truth,org.truth0.subjects,IntegerSubject,isNotEqualTo,12,4,1,101,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IntegerSubject,is,3,1,1,113,0,,
+truth,org.truth0.subjects,IntegerSubject,is,3,1,1,117,0,,
+truth,org.truth0.subjects,IntegerSubject,is,3,1,1,121,0,,
+truth,org.truth0.subjects,IntegerSubject,getSubject,3,1,2,128,0,,
+truth,org.truth0.subjects,BooleanSubject,BooleanSubject,3,1,2,32,0,,
+truth,org.truth0.subjects,BooleanSubject,isTrue,5,2,0,36,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,BooleanSubject,isFalse,5,2,0,42,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,MapSubject,3,1,2,32,0,,
+truth,org.truth0.subjects,MapSubject,isEmpty,5,2,0,36,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,isNotEmpty,5,2,0,45,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,hasKey,14,3,1,54,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,withValue,6,2,1,62,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,lacksKey,5,2,1,73,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,hasValue,5,2,1,79,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,lacksValue,5,2,1,85,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,MapSubject,create,3,1,2,95,0,,
+truth,org.truth0.subjects,ClassSubject,ClassSubject,3,1,2,28,0,,
+truth,org.truth0.subjects,ClassSubject,declaresField,15,2,1,33,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject; org.truth0.FailureStrategy; org.truth0.util.ReflectionUtil
+truth,org.truth0.subjects,Ordered,inOrder,0,1,0,20,0,,
+truth,org.truth0.subjects,IterableSubject,create,3,1,2,31,0,,
+truth,org.truth0.subjects,IterableSubject,IterableSubject,3,1,2,38,0,,
+truth,org.truth0.subjects,IterableSubject,isEmpty,5,2,0,42,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IterableSubject,isNotEmpty,5,2,0,51,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IterableSubject,iteratesAs,20,5,1,60,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.subjects,IterableSubject,iteratesOverSequence,3,1,1,86,0,,
+truth,org.truth0.subjects,IterableSubject,iteratesAs,3,1,1,94,0,org.truth0.subjects.IterableSubject,org.truth0.subjects.IterableSubject
+truth,org.truth0.extensiontest,MySubject,MySubject,3,1,2,30,0,,
+truth,org.truth0.extensiontest,MySubject,matches,5,2,1,34,0,org.truth0.subjects.Subject,org.truth0.subjects.Subject
+truth,org.truth0.extensiontest,ExtendedVerb,ExtendedVerb,3,1,1,35,0,,
+truth,org.truth0.extensiontest,ExtendedVerb,that,3,1,1,39,0,org.truth0.AbstractVerb,org.truth0.AbstractVerb
+truth,org.truth0.extensiontest,MyType,MyType,3,1,1,28,0,,
+truth,org.truth0.extensiontest,ExtensionTest,customTypeProposition,3,1,0,34,1,,
+truth,org.truth0.extensiontest,ExtensionTest,customTypePropositionWithFailure,10,1,0,38,1,,
+truth,org.truth0.util,ComparisonUtil,ComparisonUtil,2,1,0,25,0,,
+truth,org.truth0.util,ComparisonUtil,messageFor,3,1,3,27,0,,
+truth,org.truth0.util,ReflectionUtil,ReflectionUtil,2,1,0,32,0,,
+truth,org.truth0.util,ReflectionUtil,typeParameter,8,2,2,34,0,,
+truth,org.truth0.util,ReflectionUtil,getField,12,2,2,44,0,,

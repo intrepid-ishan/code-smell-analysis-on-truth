@@ -1,0 +1,1000 @@
+Project Name,Package Name,Type Name,Method Name,LOC,CC,PC,Line no,IsTest,Main prod class tested,Production classes tested
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,AutoValue_Expect_ExpectationFailure,7,2,2,13,0,,
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,message,3,1,0,23,0,,
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,cause,3,1,0,28,0,,
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,toString,3,1,0,34,0,,
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,equals,10,3,1,42,0,,
+truth,com.google.common.truth,AutoValue_Expect_ExpectationFailure,hashCode,8,1,0,55,0,,
+truth,com.google.common.truth,ExpectFailureWithStackTraceTest,expectTwoFailures,4,1,0,39,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,SubjectFactoryReflectionTest,genericErasureWorkaround,9,1,0,35,1,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.SubjectFactory
+truth,com.google.common.truth,SubjectFactoryReflectionTest,getSubject,3,1,2,39,0,,
+truth,com.google.common.truth,TruthAssertThatTest,apply,3,1,1,46,0,,
+truth,com.google.common.truth,TruthAssertThatTest,staticAssertThatMethodsMatchTestVerbInstanceMethods,17,1,0,52,1,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,TruthAssertThatTest,apply,3,1,1,58,0,,
+truth,com.google.common.truth,TruthAssertThatTest,apply,3,1,1,69,0,,
+truth,com.google.common.truth,TruthAssertThatTest,festAlike,4,1,0,83,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,RelabeledSubjectsTest,namedIncludesActualStringValue,11,1,0,36,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,RelabeledSubjectsTest,namedIncludesActualIntegerValue,11,1,0,48,1,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,RelabeledSubjectsTest,relabeledBooleans,9,1,0,60,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,RelabeledSubjectsTest,relabeledObject,10,1,0,71,1,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,RelabeledSubjectsTest,relabelledCollections,9,1,0,83,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,RelabeledSubjectsTest,relabelledPrimitiveFloatArrays,11,1,0,96,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo,3,1,0,33,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Same,4,1,0,38,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,asList,3,1,0,44,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,49,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_NotAnArray,9,1,0,59,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,70,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,75,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,80,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,85,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailSame,10,1,0,95,1,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,array,3,1,1,106,0,,
+truth,com.google.common.truth,SubjectTest,nullPointerTester,20,1,0,50,1,,
+truth,com.google.common.truth,SubjectTest,allAssertThatOverloadsAcceptNull,35,4,0,75,1,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,SubjectTest,toString,3,1,0,123,0,,
+truth,com.google.common.truth,SubjectTest,toString,3,1,0,130,0,,
+truth,com.google.common.truth,SubjectTest,toStringsAreIdentical,11,1,0,136,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,SubjectTest,isSameAsWithNulls,4,1,0,160,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isSameAsFailureWithNulls,10,1,0,166,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isSameAsWithSameObject,5,1,0,177,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isSameAsFailureWithObjects,11,1,0,184,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isSameAsFailureWithComparableObjects,11,1,0,196,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isSameAsFailureWithDifferentTypesAndSameToString,11,1,0,208,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithNulls,4,1,0,223,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsFailureWithNulls,10,1,0,229,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithObjects,5,1,0,240,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsFailureWithSameObject,11,1,0,247,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithComparableObjects,5,1,0,259,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithDifferentTypesAndSameToString,5,1,0,266,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNull,4,1,0,273,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNullFail,10,1,0,279,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,stringIsNullFail,9,1,0,290,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,SubjectTest,isNotNull,4,1,0,300,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotNullFail,10,1,0,306,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToWithNulls,4,1,0,317,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToFailureWithNulls,10,1,0,323,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToWithSameObject,5,1,0,334,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToFailureWithObjects,11,1,0,341,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToWithComparableObjects,5,1,0,353,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToFailureWithComparableObjects,11,1,0,360,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isEqualToFailureWithDifferentTypesAndSameToString,11,1,0,372,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithNulls,4,1,0,387,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToFailureWithNulls,10,1,0,393,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithObjects,5,1,0,404,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToFailureWithObjects,10,1,0,411,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToFailureWithSameObject,11,1,0,422,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithComparableObjects,5,1,0,434,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToFailureWithComparableObjects,11,1,0,441,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithDifferentTypesAndSameToString,5,1,0,453,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isInstanceOf,3,1,0,460,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isInstanceOfFail,9,1,0,465,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotInstanceOf,3,1,0,478,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isNotInstanceOfFail,9,1,0,483,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,isIn,3,1,0,493,1,,
+truth,com.google.common.truth,SubjectTest,isInJustTwo,3,1,0,498,1,,
+truth,com.google.common.truth,SubjectTest,isInFailure,9,1,0,503,1,,
+truth,com.google.common.truth,SubjectTest,isInNullInListWithNull,3,1,0,513,1,,
+truth,com.google.common.truth,SubjectTest,isInNonnullInListWithNull,3,1,0,518,1,,
+truth,com.google.common.truth,SubjectTest,isInNullFailure,9,1,0,523,1,,
+truth,com.google.common.truth,SubjectTest,isInEmptyFailure,9,1,0,533,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOf,3,1,0,543,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOfJustTwo,3,1,0,548,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOfFailure,9,1,0,553,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOfNullInListWithNull,3,1,0,563,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOfNonnullInListWithNull,3,1,0,568,1,,
+truth,com.google.common.truth,SubjectTest,isAnyOfNullFailure,9,1,0,573,1,,
+truth,com.google.common.truth,SubjectTest,isNotIn,3,1,0,583,1,,
+truth,com.google.common.truth,SubjectTest,isNotInFailure,9,1,0,588,1,,
+truth,com.google.common.truth,SubjectTest,isNotInNull,3,1,0,599,1,,
+truth,com.google.common.truth,SubjectTest,isNotInNullFailure,9,1,0,604,1,,
+truth,com.google.common.truth,SubjectTest,isNotInEmpty,3,1,0,615,1,,
+truth,com.google.common.truth,SubjectTest,isNoneOf,3,1,0,620,1,,
+truth,com.google.common.truth,SubjectTest,isNoneOfFailure,9,1,0,625,1,,
+truth,com.google.common.truth,SubjectTest,isNoneOfNull,3,1,0,636,1,,
+truth,com.google.common.truth,SubjectTest,isNoneOfNullFailure,9,1,0,641,1,,
+truth,com.google.common.truth,SubjectTest,throwableHasInitedCause,11,1,0,652,1,com.google.common.truth.Subject,com.google.common.truth.FailureStrategy; com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,equalsThrowsUSOE,10,1,0,664,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,hashCodeThrowsUSOE,10,1,0,676,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,SubjectTest,oneShotIterable,12,1,1,687,0,,
+truth,com.google.common.truth,SubjectTest,iterator,3,1,0,690,0,,
+truth,com.google.common.truth,SubjectTest,toString,3,1,0,695,0,,
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrepended,9,1,0,36,1,,
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrependedWithNamed,9,1,0,46,1,,
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageThat,9,1,0,60,1,,
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrepended,9,1,0,72,1,com.google.common.truth.TestVerb,com.google.common.truth.TestVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,CustomFailureMessageTest,customMessageIsPrependedWithNamed,9,1,0,85,1,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.TestVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,CustomFailureMessageTest,customMessage,9,1,0,100,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject; com.google.common.truth.TestVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,AbstractVerbTest,fail,3,1,2,44,0,,
+truth,com.google.common.truth,AbstractVerbTest,withFailureMessage,3,1,1,52,0,,
+truth,com.google.common.truth,AbstractVerbTest,getFailureMessage,3,1,0,58,0,,
+truth,com.google.common.truth,AbstractVerbTest,noArgFail,4,1,0,66,1,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb; com.google.common.truth.StringSubject
+truth,com.google.common.truth,AbstractVerbTest,argFail,4,1,1,72,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,11,1,0,38,1,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,LongTest,simpleEquality,3,1,0,40,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,LongTest,longIsLong,3,1,0,45,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,LongTest,simpleInequality,3,1,0,50,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,LongTest,equalityFail,9,1,0,55,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,LongTest,inequalityFail,9,1,0,65,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,LongTest,additionAssumptionFail,8,1,0,75,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.TruthJUnit
+truth,com.google.common.truth,LongTest,equalityOfNulls,3,1,0,84,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,LongTest,equalityOfNullsFail,16,1,0,89,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,LongTest,inequalityOfNulls,4,1,0,105,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,LongTest,inequalityOfNullsFail,9,1,0,111,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,testNulls,32,1,0,41,1,,
+truth,com.google.common.truth,ComparableSubjectTest,isInRange,11,1,0,70,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,isNotInRange,11,1,0,83,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,isEquivalentAccordingToCompareTo,10,1,0,96,1,,
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,17,1,0,108,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,17,1,0,126,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,isAtMost,11,1,0,144,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,isAtLeast,11,1,0,157,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ComparableSubjectTest,longs,11,1,0,172,1,,
+truth,com.google.common.truth,ComparableSubjectTest,strings,11,1,0,187,1,,
+truth,com.google.common.truth,ComparableSubjectTest,booleans,13,1,0,203,1,,
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,4,1,0,221,1,,
+truth,com.google.common.truth,ComparableSubjectTest,namedComparableType,3,1,0,227,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableType,3,1,0,245,1,,
+truth,com.google.common.truth,ComparableSubjectTest,comparableMixedTypesDontCompile,4,1,0,268,1,,
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableTypeMixedTypes,4,1,0,298,1,,
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_same,3,1,0,32,1,com.google.common.truth.ClassSubject,com.google.common.truth.ClassSubject
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_parent,4,1,0,37,1,com.google.common.truth.ClassSubject,com.google.common.truth.ClassSubject
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversed,9,1,0,43,1,com.google.common.truth.ClassSubject,com.google.common.truth.ClassSubject; com.google.common.truth.Truth
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversedDifferentTypes,9,1,0,56,1,com.google.common.truth.ClassSubject,com.google.common.truth.ClassSubject; com.google.common.truth.Truth
+truth,com.google.common.truth,BigDecimalTest,isEqualTo,3,1,0,35,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,BigDecimalTest,isEquivalentAccordingToCompareTo,3,1,0,41,1,,
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_bigDecimal,11,1,0,47,1,,
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_int,10,1,0,59,1,,
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_long,10,1,0,70,1,,
+truth,com.google.common.truth,BigDecimalTest,isEqualToIgnoringScale_string,13,1,0,81,1,,
+truth,com.google.common.truth,AbstractArraySubjectTest,foo,6,1,0,38,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,AbstractArraySubjectTest,canBeUsedInSubjectFactories,9,1,0,46,1,,
+truth,com.google.common.truth,ExampleTest,stringContains,3,1,0,39,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ExampleTest,listHasElements,5,1,0,44,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,ExampleTest,equalityFail,10,1,0,56,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ExampleTest,divideBySelf,4,1,1,69,0,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject; com.google.common.truth.TruthJUnit
+truth,com.google.common.truth,ExampleTest,expectRange,6,1,0,77,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ExampleTest,customTypeCompares,3,1,0,85,1,,
+truth,com.google.common.truth,IntegerTest,simpleEquality,3,1,0,41,1,,
+truth,com.google.common.truth,IntegerTest,intIsInt,3,1,0,46,1,,
+truth,com.google.common.truth,IntegerTest,simpleInequality,3,1,0,51,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,IntegerTest,equalityFail,9,1,0,56,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IntegerTest,inequalityFail,9,1,0,66,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,IntegerTest,additionAssumptionFail,8,1,0,76,1,com.google.common.truth.TruthJUnit,com.google.common.truth.TruthJUnit
+truth,com.google.common.truth,IntegerTest,equalityOfNulls,3,1,0,85,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,IntegerTest,equalityOfNullsFail,16,1,0,90,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,IntegerTest,inequalityOfNulls,4,1,0,106,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,IntegerTest,inequalityOfNullsFail,9,1,0,112,1,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,IntegerTest,primitives,8,1,0,122,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,20,1,0,132,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject; com.google.common.truth.IntegerSubject; com.google.common.truth.LongSubject
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,10,1,0,158,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject; com.google.common.truth.IntegerSubject; com.google.common.truth.LongSubject
+truth,com.google.common.truth,TableTest,tableIsEmpty,4,1,0,35,1,,
+truth,com.google.common.truth,TableTest,tableIsEmptyWithFailure,10,1,0,41,1,,
+truth,com.google.common.truth,TableTest,tableIsNotEmpty,4,1,0,52,1,,
+truth,com.google.common.truth,TableTest,tableIsNotEmptyWithFailure,10,1,0,58,1,,
+truth,com.google.common.truth,TableTest,hasSize,3,1,0,69,1,,
+truth,com.google.common.truth,TableTest,hasSizeZero,3,1,0,74,1,,
+truth,com.google.common.truth,TableTest,hasSizeNegative,8,1,0,79,1,,
+truth,com.google.common.truth,TableTest,contains,4,1,0,88,1,,
+truth,com.google.common.truth,TableTest,containsFailure,10,1,0,94,1,,
+truth,com.google.common.truth,TableTest,doesNotContain,7,1,0,107,1,,
+truth,com.google.common.truth,TableTest,doesNotContainFailure,10,1,0,116,1,,
+truth,com.google.common.truth,TableTest,containsCell,4,1,0,130,1,,
+truth,com.google.common.truth,TableTest,containsCellFailure,10,1,0,136,1,,
+truth,com.google.common.truth,TableTest,doesNotContainCell,7,1,0,147,1,,
+truth,com.google.common.truth,TableTest,doesNotContainCellFailure,10,1,0,156,1,,
+truth,com.google.common.truth,BooleanTest,isTrue,3,1,0,32,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,BooleanTest,isTrueFailing,9,1,0,37,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,BooleanTest,isFalse,3,1,0,47,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,BooleanTest,isFalseFailing,9,1,0,52,1,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,ThrowableTest,hasMessage,4,1,0,31,1,,
+truth,com.google.common.truth,ThrowableTest,hasMessage_null,4,1,0,37,1,,
+truth,com.google.common.truth,ThrowableTest,hasMessage_failure,11,1,0,43,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,ThrowableTest,hasMessage_MessageHasNullMessage_failure,9,1,0,57,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ThrowableTest,hasMessage_NullMessageHasMessage_failure,9,1,0,68,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ThrowableTest,inheritedMethodChainsSubject,11,1,0,79,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ExpectFailureTest,expectFailNotEquals,3,1,0,40,1,com.google.common.truth.IntegerSubject,com.google.common.truth.IntegerSubject
+truth,com.google.common.truth,ExpectFailureTest,expectFailStringContains,3,1,0,45,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ExpectFailureTest,expectFailContainsAllOf,3,1,0,50,1,,
+truth,com.google.common.truth,ExpectFailureTest,expectFailContainsAnyOf,3,1,0,55,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,3,1,0,35,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Same,4,1,0,40,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,3,1,0,46,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLength,4,1,0,51,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthFail,9,1,0,57,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,8,1,0,67,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmpty,3,1,0,76,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmptyFail,9,1,0,81,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmpty,3,1,0,91,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmptyFail,9,1,0,96,1,,
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,8,1,0,106,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_NotAnArray,8,1,0,115,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,125,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,130,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,135,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,8,1,0,140,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailSame,9,1,0,149,1,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,array,3,1,1,159,0,,
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo,3,1,0,33,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Same,4,1,0,38,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,asList,3,1,0,44,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,49,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_NotAnArray,9,1,0,61,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,72,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,77,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,82,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,87,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailSame,10,1,0,97,1,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,array,3,1,1,108,0,,
+truth,com.google.common.truth,OptionalSubjectTest,namedOptional,11,1,0,34,1,,
+truth,com.google.common.truth,OptionalSubjectTest,failOnNullSubject,11,1,0,47,1,,
+truth,com.google.common.truth,OptionalSubjectTest,isPresent,3,1,0,59,1,,
+truth,com.google.common.truth,OptionalSubjectTest,isPresentFailing,10,1,0,64,1,,
+truth,com.google.common.truth,OptionalSubjectTest,isPresentFailingWithNamed,10,1,0,75,1,,
+truth,com.google.common.truth,OptionalSubjectTest,isAbsent,3,1,0,86,1,,
+truth,com.google.common.truth,OptionalSubjectTest,isAbsentFailing,10,1,0,91,1,,
+truth,com.google.common.truth,OptionalSubjectTest,hasValue,3,1,0,102,1,,
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithAbsent,10,1,0,107,1,,
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithNullParameter,9,1,0,118,1,,
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithWrongValueForString,10,1,0,128,1,,
+truth,com.google.common.truth,OptionalSubjectTest,hasValue_FailingWithWrongValueForOther,10,1,0,139,1,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,8,1,0,35,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,3,1,0,45,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,50,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,9,1,0,60,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,8,1,0,71,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,81,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,86,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,91,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,96,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailSame,10,1,0,106,1,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,array,3,1,1,117,0,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo,3,1,0,38,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Same,4,1,0,43,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,asList,3,1,0,49,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.IterableSubject; com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLength,4,1,0,54,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthFail,9,1,0,60,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,8,1,0,70,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmpty,3,1,0,79,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmptyFail,9,1,0,84,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmpty,3,1,0,94,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmptyFail,9,1,0,99,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,109,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_NotAnArray,11,1,0,121,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,133,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,138,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,143,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,148,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailSame,10,1,0,158,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,objectArray,3,1,1,169,0,,
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo,3,1,0,173,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayAsList,3,1,0,178,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.IterableSubject; com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalLength,9,1,0,183,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalOrdering,9,1,0,193,1,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubjectTest,objectArray,3,1,1,205,0,,
+truth,com.google.common.truth,ObjectArraySubjectTest,SetArrayIsEqualTo_Fail_UnequalOrdering,9,1,0,209,1,,
+truth,com.google.common.truth,ObjectArraySubjectTest,objectArray,3,1,1,225,0,,
+truth,com.google.common.truth,MathUtilTest,floatEquality,5,1,0,33,1,com.google.common.truth.MathUtil,com.google.common.truth.BooleanSubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,MathUtilTest,doubleEquality,5,1,0,41,1,com.google.common.truth.MathUtil,com.google.common.truth.BooleanSubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,4,1,0,49,1,com.google.common.truth.MathUtil,com.google.common.truth.BooleanSubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,IterableTest,hasSize,3,1,0,41,1,,
+truth,com.google.common.truth,IterableTest,hasSizeZero,3,1,0,46,1,,
+truth,com.google.common.truth,IterableTest,hasSizeFails,9,1,0,51,1,,
+truth,com.google.common.truth,IterableTest,hasSizeNegative,8,1,0,61,1,,
+truth,com.google.common.truth,IterableTest,iterableContains,3,1,0,70,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableContainsWithNull,3,1,0,75,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableContainsFailure,9,1,0,80,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,namedIterableContainsFailure,9,1,0,90,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,IterableTest,failureMessageIterableContainsFailure,9,1,0,100,1,,
+truth,com.google.common.truth,IterableTest,iterableDoesNotContain,3,1,0,110,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainNull,3,1,0,115,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainFailure,9,1,0,120,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicates,3,1,0,130,1,,
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesMixedTypes,3,1,0,135,1,,
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesFailure,9,1,0,140,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOf,3,1,0,150,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNull,3,1,0,155,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNullInThirdAndFinalPosition,3,1,0,160,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfFailure,9,1,0,165,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithOneShotIterable,10,1,0,175,1,,
+truth,com.google.common.truth,IterableTest,iterator,3,1,0,180,0,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithMany,3,1,0,189,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,3,1,0,194,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNull,3,1,0,199,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullAtThirdAndFinalPosition,3,1,0,204,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfFailure,9,1,0,209,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithExtras,10,1,0,220,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithExtraCopiesOfOutOfOrder,10,1,0,232,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicatesFailure,9,1,0,244,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicateMissingElements,9,1,0,261,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullFailure,9,1,0,273,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,3,1,0,286,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,9,1,0,291,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,4,1,0,302,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithFailure,9,1,0,308,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,14,1,0,319,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterator,3,1,0,325,0,,
+truth,com.google.common.truth,IterableTest,toString,3,1,0,330,0,,
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterableWrongOrder,19,1,0,339,1,com.google.common.truth.Ordered,com.google.common.truth.Ordered
+truth,com.google.common.truth,IterableTest,iterator,3,1,0,344,0,,
+truth,com.google.common.truth,IterableTest,toString,3,1,0,349,0,,
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,3,1,0,364,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailure,9,1,0,369,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInSubject,9,1,0,381,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOfFailureWithDuplicateInExpected,9,1,0,393,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyArray,5,1,0,405,1,,
+truth,com.google.common.truth,IterableTest,arrayContainsExactly,5,1,0,413,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,3,1,0,420,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,3,1,0,425,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,3,1,0,430,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,3,1,0,435,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOnlyNull,4,1,0,440,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullSecond,3,1,0,446,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullThird,3,1,0,451,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNull,3,1,0,456,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullOutOfOrder,3,1,0,461,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithElementsThatThrowWhenYouCallHashCode,16,1,0,466,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInErrorMessageIsOrdered,10,1,0,505,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyMissingItemFailure,9,1,0,519,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyUnexpectedItemFailure,9,1,0,530,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesNotEnoughItemsFailure,9,1,0,542,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesMissingItemFailure,9,1,0,555,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesUnexpectedItemFailure,9,1,0,568,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingElements,9,1,0,585,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullFailure,9,1,0,597,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMissingAndExtraElements,9,1,0,610,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicateMissingAndExtraElements,9,1,0,623,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneIterableGivesWarning,9,1,0,636,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyElementsInWithOneIterableDoesNotGiveWarning,9,1,0,652,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithTwoIterableDoesNotGivesWarning,9,1,0,665,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOneNonIterableDoesNotGiveWarning,9,1,0,678,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,3,1,0,691,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,3,1,0,696,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithFailure,9,1,0,701,1,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterable,10,1,0,713,1,,
+truth,com.google.common.truth,IterableTest,iterator,3,1,0,718,0,,
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterableWrongOrder,19,1,0,726,1,,
+truth,com.google.common.truth,IterableTest,iterator,3,1,0,731,0,,
+truth,com.google.common.truth,IterableTest,toString,3,1,0,736,0,,
+truth,com.google.common.truth,IterableTest,iterableIsEmpty,3,1,0,752,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableIsEmptyWithFailure,9,1,0,757,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableIsNotEmpty,3,1,0,767,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableIsNotEmptyWithFailure,9,1,0,772,1,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrdered,5,1,0,782,1,,
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedFailure,10,1,0,789,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IterableTest,isStrictlyOrderedWithNonComparableElementsFailure,8,1,0,800,1,,
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,5,1,0,809,1,,
+truth,com.google.common.truth,IterableTest,isOrderedFailure,10,1,0,816,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IterableTest,isOrderedWithNonComparableElementsFailure,8,1,0,827,1,,
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrderedWithComparator,6,1,0,836,1,,
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrderedWithComparatorFailure,10,1,0,845,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IterableTest,iterableIsOrderedWithComparator,6,1,0,856,1,,
+truth,com.google.common.truth,IterableTest,iterableIsOrderedWithComparatorFailure,10,1,0,864,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,IterableTest,compare,3,1,2,877,0,,
+truth,com.google.common.truth,IterableTest,compare,3,1,2,899,0,,
+truth,com.google.common.truth,IterableTest,iterableOrderedByBaseClassComparator,5,1,0,905,1,,
+truth,com.google.common.truth,MultimapTest,multimapIsEmpty,4,1,0,41,1,,
+truth,com.google.common.truth,MultimapTest,multimapIsEmptyWithFailure,10,1,0,47,1,,
+truth,com.google.common.truth,MultimapTest,multimapIsNotEmpty,4,1,0,58,1,,
+truth,com.google.common.truth,MultimapTest,multimapIsNotEmptyWithFailure,10,1,0,64,1,,
+truth,com.google.common.truth,MultimapTest,multimapNamedValuesForKey,10,1,0,75,1,,
+truth,com.google.common.truth,MultimapTest,valuesForKeyNamed,10,1,0,93,1,,
+truth,com.google.common.truth,MultimapTest,hasSize,3,1,0,111,1,,
+truth,com.google.common.truth,MultimapTest,hasSizeZero,3,1,0,116,1,,
+truth,com.google.common.truth,MultimapTest,hasSizeNegative,8,1,0,121,1,,
+truth,com.google.common.truth,MultimapTest,containsKey,4,1,0,130,1,,
+truth,com.google.common.truth,MultimapTest,containsKeyFailure,10,1,0,136,1,,
+truth,com.google.common.truth,MultimapTest,containsKeyNull,5,1,0,147,1,,
+truth,com.google.common.truth,MultimapTest,containsKeyNullFailure,10,1,0,154,1,,
+truth,com.google.common.truth,MultimapTest,doesNotContainKey,5,1,0,165,1,,
+truth,com.google.common.truth,MultimapTest,doesNotContainKeyFailure,10,1,0,172,1,,
+truth,com.google.common.truth,MultimapTest,doesNotContainNullKeyFailure,11,1,0,183,1,,
+truth,com.google.common.truth,MultimapTest,containsEntry,4,1,0,195,1,,
+truth,com.google.common.truth,MultimapTest,containsEntryFailure,10,1,0,201,1,,
+truth,com.google.common.truth,MultimapTest,doesNotContainEntry,4,1,0,212,1,,
+truth,com.google.common.truth,MultimapTest,doesNotContainEntryFailure,10,1,0,218,1,,
+truth,com.google.common.truth,MultimapTest,valuesForKey,7,1,0,230,1,,
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,4,1,0,244,1,,
+truth,com.google.common.truth,MultimapTest,containsExactly,5,1,0,252,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyEmpty,6,1,0,261,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyRejectsNull,9,1,0,270,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,5,1,0,282,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicatesFailure,11,1,0,292,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureMissing,13,1,0,312,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureExtra,13,1,0,334,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyFailureBoth,15,1,0,356,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,5,1,0,381,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,5,1,0,391,1,,
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailure,12,1,0,400,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderFailureValuesOnly,12,1,0,419,1,,
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,3,1,0,33,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Same,4,1,0,38,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,3,1,0,44,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,8,1,0,49,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_NotAnArray,8,1,0,58,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,68,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,73,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,78,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,8,1,0,83,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailSame,9,1,0,92,1,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,array,3,1,1,102,0,,
+truth,com.google.common.truth,ExpectTest,apply,4,1,2,44,0,com.google.common.truth.Expect,com.google.common.truth.Expect
+truth,com.google.common.truth,ExpectTest,expectTrue,3,1,0,51,1,,
+truth,com.google.common.truth,ExpectTest,expectFail,9,1,0,56,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,ExpectTest,warnWhenExpectIsNotRule,5,1,0,67,1,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,5,1,0,38,1,,
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraMissingAndDiffering,12,1,0,46,1,,
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureDiffering,12,1,0,65,1,,
+truth,com.google.common.truth,MapTest,namedMapIsEqualToFailureDiffering,12,1,0,82,1,,
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtra,12,1,0,99,1,,
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureMissing,12,1,0,116,1,,
+truth,com.google.common.truth,MapTest,mapIsEqualToFailureExtraAndMissing,12,1,0,133,1,,
+truth,com.google.common.truth,MapTest,mapIsNotEqualTo,11,1,0,151,1,,
+truth,com.google.common.truth,MapTest,mapIsEmpty,4,1,0,166,1,,
+truth,com.google.common.truth,MapTest,mapIsEmptyWithFailure,10,1,0,172,1,,
+truth,com.google.common.truth,MapTest,mapIsNotEmpty,4,1,0,183,1,,
+truth,com.google.common.truth,MapTest,mapIsNotEmptyWithFailure,10,1,0,189,1,,
+truth,com.google.common.truth,MapTest,hasSize,3,1,0,200,1,,
+truth,com.google.common.truth,MapTest,hasSizeZero,3,1,0,205,1,,
+truth,com.google.common.truth,MapTest,hasSizeNegative,8,1,0,210,1,,
+truth,com.google.common.truth,MapTest,containsKey,4,1,0,219,1,,
+truth,com.google.common.truth,MapTest,containsKeyFailure,10,1,0,225,1,,
+truth,com.google.common.truth,MapTest,containsKeyNullFailure,10,1,0,236,1,,
+truth,com.google.common.truth,MapTest,containsNullKey,5,1,0,247,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,doesNotContainKey,5,1,0,254,1,,
+truth,com.google.common.truth,MapTest,doesNotContainKeyFailure,10,1,0,261,1,,
+truth,com.google.common.truth,MapTest,doesNotContainNullKey,11,1,0,272,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,containsEntry,4,1,0,284,1,,
+truth,com.google.common.truth,MapTest,containsEntryFailure,10,1,0,290,1,,
+truth,com.google.common.truth,MapTest,containsNullKeyAndValue,10,1,0,301,1,,
+truth,com.google.common.truth,MapTest,containsNullEntry,5,1,0,312,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,containsNullEntryValue,11,1,0,319,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,containsNullEntryKey,11,1,0,331,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,doesNotContainEntry,7,1,0,343,1,,
+truth,com.google.common.truth,MapTest,doesNotContainEntryFailure,10,1,0,352,1,,
+truth,com.google.common.truth,MapTest,doesNotContainNullEntry,6,1,0,364,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,doesNotContainNullEntryFailure,11,1,0,372,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,mapContainsKey,4,1,0,384,1,,
+truth,com.google.common.truth,MapTest,failMapContainsKey,10,1,0,390,1,,
+truth,com.google.common.truth,MapTest,failMapContainsKeyWithNull,10,1,0,401,1,,
+truth,com.google.common.truth,MapTest,mapLacksKey,4,1,0,412,1,,
+truth,com.google.common.truth,MapTest,failMapLacksKey,10,1,0,418,1,,
+truth,com.google.common.truth,MapTest,mapContainsKeyWithValue,4,1,0,429,1,,
+truth,com.google.common.truth,MapTest,mapContainsKeyWithNullValueNullExpected,5,1,0,435,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,failMapContainsKeyWithValue,10,1,0,442,1,,
+truth,com.google.common.truth,MapTest,failMapContainsKeyWithNullValuePresentExpected,11,1,0,453,1,com.google.common.truth.MapSubject,com.google.common.truth.MapSubject
+truth,com.google.common.truth,MapTest,failMapContainsKeyWithPresentValueNullExpected,10,1,0,465,1,,
+truth,com.google.common.truth,MultisetTest,multisetIsEmpty,4,1,0,36,1,,
+truth,com.google.common.truth,MultisetTest,multisetIsEmptyWithFailure,10,1,0,42,1,,
+truth,com.google.common.truth,MultisetTest,multisetIsNotEmpty,4,1,0,53,1,,
+truth,com.google.common.truth,MultisetTest,multisetIsNotEmptyWithFailure,10,1,0,59,1,,
+truth,com.google.common.truth,MultisetTest,hasSize,3,1,0,70,1,,
+truth,com.google.common.truth,MultisetTest,hasSizeZero,3,1,0,75,1,,
+truth,com.google.common.truth,MultisetTest,hasSizeNegative,8,1,0,80,1,,
+truth,com.google.common.truth,MultisetTest,hasCount,6,1,0,89,1,,
+truth,com.google.common.truth,MultisetTest,hasCountFail,11,1,0,97,1,,
+truth,com.google.common.truth,MultisetTest,contains,4,1,0,111,1,,
+truth,com.google.common.truth,MultisetTest,containsFailure,11,1,0,117,1,,
+truth,com.google.common.truth,MultisetTest,containsNullFailure,11,1,0,129,1,,
+truth,com.google.common.truth,MultisetTest,containsNull,5,1,0,141,1,,
+truth,com.google.common.truth,MultisetTest,doesNotContain,5,1,0,148,1,,
+truth,com.google.common.truth,MultisetTest,doesNotContainFailure,10,1,0,155,1,,
+truth,com.google.common.truth,MultisetTest,doesNotContainNull,11,1,0,166,1,,
+truth,com.google.common.truth,StringTest,hasLength,3,1,0,36,1,,
+truth,com.google.common.truth,StringTest,hasLengthZero,3,1,0,41,1,,
+truth,com.google.common.truth,StringTest,hasLengthFails,9,1,0,46,1,,
+truth,com.google.common.truth,StringTest,hasLengthNegative,8,1,0,56,1,,
+truth,com.google.common.truth,StringTest,stringIsEmpty,3,1,0,65,1,,
+truth,com.google.common.truth,StringTest,stringIsEmptyFail,9,1,0,70,1,,
+truth,com.google.common.truth,StringTest,stringIsNotEmpty,3,1,0,80,1,,
+truth,com.google.common.truth,StringTest,stringIsNotEmptyFail,9,1,0,85,1,,
+truth,com.google.common.truth,StringTest,stringContains,3,1,0,95,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringContainsCharSeq,4,1,0,100,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringContainsFail,9,1,0,106,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringDoesNotContain,3,1,0,116,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringDoesNotContainCharSequence,4,1,0,121,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringDoesNotContainFail,10,1,0,127,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringEquality,4,1,0,138,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringEqualityToNull,9,1,0,144,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringEqualityFail,9,1,0,154,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringNamedEqualityFail,9,1,0,164,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,StringTest,stringStartsWith,3,1,0,174,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringStartsWithFail,9,1,0,179,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringEndsWith,3,1,0,189,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringEndsWithFail,9,1,0,194,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,emptyStringTests,8,1,0,204,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringMatchesString,3,1,0,214,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringMatchesStringWithFail,9,1,0,219,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringTest,stringMatchesPattern,3,1,0,229,1,,
+truth,com.google.common.truth,StringTest,stringMatchesPatternWithFail,9,1,0,234,1,,
+truth,com.google.common.truth,StringTest,stringContainsMatchStringUsesFind,4,1,0,244,1,,
+truth,com.google.common.truth,StringTest,stringContainsMatchString,10,1,0,250,1,,
+truth,com.google.common.truth,StringTest,stringContainsMatchPattern,10,1,0,262,1,,
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchString,10,1,0,274,1,,
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchStringUsesFind,9,1,0,286,1,,
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchPattern,10,1,0,296,1,,
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java,4,1,0,44,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Fail,9,1,0,50,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform; com.google.common.truth.Truth; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Superclass,3,1,0,60,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Interface,4,1,0,66,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT,4,1,0,72,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Fail,9,1,0,78,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform; com.google.common.truth.Truth; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Superclass,3,1,0,88,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Interface,4,1,0,94,1,com.google.common.truth.Platform,com.google.common.truth.BooleanSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_JavaLang,3,1,0,102,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_JavaUtil,3,1,0,107,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_Generic,3,1,0,112,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_Uncompressed,3,1,0,117,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_GenericWithPartialUncompress,3,1,0,123,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PlatformTest,compressType_Primitive,3,1,0,129,1,com.google.common.truth.Platform,com.google.common.truth.StringSubject; com.google.common.truth.Platform
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo,3,1,0,37,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Same,4,1,0,42,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,asList,3,1,0,48,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,53,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_NotAnArray,9,1,0,63,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,74,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,79,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,84,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,89,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailSame,10,1,0,99,1,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,array,3,1,1,110,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,8,1,0,35,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,3,1,0,45,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,9,1,0,50,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,9,1,0,60,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,8,1,0,71,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,3,1,0,81,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,3,1,0,86,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentTypes,3,1,0,91,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,9,1,0,96,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailSame,10,1,0,106,1,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,array,3,1,1,117,0,,
+truth,com.google.common.truth,DoubleTest,isWithinOf,5,1,0,34,1,,
+truth,com.google.common.truth,DoubleTest,isNotWithinOf,3,1,0,41,1,,
+truth,com.google.common.truth,DoubleTest,negativeTolerances,26,1,0,46,1,,
+truth,com.google.common.truth,DoubleTest,isWithinNegativeToleranceThrowsIAE,9,1,3,82,0,,
+truth,com.google.common.truth,DoubleTest,isNotWithinNegativeToleranceThrowsIAE,9,1,3,92,0,,
+truth,com.google.common.truth,DoubleTest,nanTolerances,16,1,0,102,1,,
+truth,com.google.common.truth,DoubleTest,infiniteTolerances,16,1,0,118,1,,
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,10,1,0,134,1,,
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,6,1,0,147,1,,
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,8,1,0,155,1,,
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,14,1,0,165,1,,
+truth,com.google.common.truth,DoubleTest,assertThatNaNFailsWithin,10,1,2,183,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,DoubleTest,assertThatNaNFailsNotWithin,10,1,2,193,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth,DoubleTest,isPositiveInfinity,7,1,0,203,1,,
+truth,com.google.common.truth,DoubleTest,assertThatIsPositiveInfinityFails,10,1,1,212,0,,
+truth,com.google.common.truth,DoubleTest,isNegativeInfinity,7,1,0,224,1,,
+truth,com.google.common.truth,DoubleTest,assertThatIsNegativeInfinityFails,10,1,1,233,0,,
+truth,com.google.common.truth,DoubleTest,isNaN,7,1,0,245,1,,
+truth,com.google.common.truth,DoubleTest,assertThatIsNaNFails,10,1,1,254,0,,
+truth,com.google.common.truth,ObjectArraySubject,ObjectArraySubject,4,1,2,33,0,com.google.common.truth.ObjectArraySubject,com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,ObjectArraySubject,underlyingType,3,1,0,38,0,,
+truth,com.google.common.truth,ObjectArraySubject,listRepresentation,3,1,0,43,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ObjectArraySubject,typeNameFromInstance,15,4,1,48,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,ObjectArraySubject,isEqualTo,22,5,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,ObjectArraySubject,isNotEqualTo,11,2,1,98,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,ObjectArraySubject,asList,3,1,0,111,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject; com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth,TruthJUnit,fail,3,1,1,56,0,,
+truth,com.google.common.truth,TruthJUnit,failComparing,3,1,3,61,0,com.google.common.truth.StringUtil,com.google.common.truth.StringUtil
+truth,com.google.common.truth,TruthJUnit,fail,3,1,2,66,0,,
+truth,com.google.common.truth,TruthJUnit,throwAssumptionError,3,1,0,72,0,,
+truth,com.google.common.truth,TruthJUnit,assume,3,1,0,80,0,,
+truth,com.google.common.truth,TruthJUnit,TruthJUnit,2,1,0,94,0,,
+truth,com.google.common.truth,DoubleSubject,DoubleSubject,3,1,2,33,0,,
+truth,com.google.common.truth,DoubleSubject,isWithin,13,2,1,76,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.DoubleSubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,DoubleSubject,of,8,2,1,83,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.DoubleSubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,DoubleSubject,isNotWithin,13,2,1,97,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.DoubleSubject
+truth,com.google.common.truth,DoubleSubject,of,8,2,1,104,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.DoubleSubject
+truth,com.google.common.truth,DoubleSubject,isEqualTo,3,1,1,119,0,,
+truth,com.google.common.truth,DoubleSubject,isNotEqualTo,3,1,1,127,0,,
+truth,com.google.common.truth,DoubleSubject,isEquivalentAccordingToCompareTo,3,1,1,135,0,,
+truth,com.google.common.truth,DoubleSubject,checkTolerance,6,1,1,143,0,,
+truth,com.google.common.truth,DoubleSubject,isPositiveInfinity,3,1,0,157,0,,
+truth,com.google.common.truth,DoubleSubject,isNegativeInfinity,3,1,0,164,0,,
+truth,com.google.common.truth,DoubleSubject,isNaN,3,1,0,171,0,,
+truth,com.google.common.truth,ThrowableSubject,ThrowableSubject,3,1,2,28,0,com.google.common.truth.ThrowableSubject,com.google.common.truth.ThrowableSubject
+truth,com.google.common.truth,ThrowableSubject,hasMessage,5,2,1,33,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ThrowableSubject,causeInsertingStrategy,14,1,2,42,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.StringUtil
+truth,com.google.common.truth,ThrowableSubject,fail,3,1,1,45,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,ThrowableSubject,fail,3,1,2,50,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,ThrowableSubject,failComparing,3,1,3,56,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.StringUtil
+truth,com.google.common.truth,StringSubject,StringSubject,3,1,2,34,0,,
+truth,com.google.common.truth,StringSubject,getDisplaySubject,8,2,0,38,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,isEqualTo,28,8,1,47,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject; com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,StringSubject,isEquivalentAccordingToCompareTo,3,1,1,81,0,,
+truth,com.google.common.truth,StringSubject,isNull,5,2,0,89,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,hasLength,7,2,1,99,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,isEmpty,8,3,0,114,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,isNotEmpty,8,3,0,125,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,contains,9,3,1,136,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,doesNotContain,9,3,1,148,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,startsWith,9,3,1,160,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,endsWith,9,3,1,172,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,matches,5,2,1,184,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,matches,5,2,1,193,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,doesNotMatch,5,2,1,203,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,doesNotMatch,5,2,1,212,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,StringSubject,containsMatch,5,2,1,222,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,containsMatch,5,2,1,232,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,doesNotContainMatch,5,2,1,241,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,doesNotContainMatch,5,2,1,252,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.StringSubject
+truth,com.google.common.truth,StringSubject,quote,3,1,1,262,0,,
+truth,com.google.common.truth,AbstractArraySubject,AbstractArraySubject,3,1,2,31,0,,
+truth,com.google.common.truth,AbstractArraySubject,isEmpty,5,2,0,35,0,com.google.common.truth.AbstractArraySubject,com.google.common.truth.AbstractArraySubject; com.google.common.truth.Subject
+truth,com.google.common.truth,AbstractArraySubject,isNotEmpty,5,2,0,44,0,com.google.common.truth.AbstractArraySubject,com.google.common.truth.AbstractArraySubject; com.google.common.truth.Subject
+truth,com.google.common.truth,AbstractArraySubject,hasLength,6,2,1,53,0,com.google.common.truth.AbstractArraySubject,com.google.common.truth.AbstractArraySubject; com.google.common.truth.Subject
+truth,com.google.common.truth,AbstractArraySubject,named,3,1,1,65,0,,
+truth,com.google.common.truth,AbstractArraySubject,underlyingType,0,1,0,70,0,,
+truth,com.google.common.truth,AbstractArraySubject,listRepresentation,0,1,0,72,0,,
+truth,com.google.common.truth,AbstractArraySubject,getDisplaySubject,3,1,0,74,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,AbstractArraySubject,failWithBadType,4,1,1,81,0,com.google.common.truth.Platform,com.google.common.truth.Platform; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,SubjectFactory,getSubject,0,1,2,34,0,,
+truth,com.google.common.truth,SubjectFactory,getSubjectClass,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,PrimitiveDoubleArraySubject,3,1,2,37,0,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,underlyingType,3,1,0,41,0,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,listRepresentation,3,1,0,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isEqualTo,3,1,1,51,0,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isEqualTo,24,6,2,65,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.MathUtil; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isNotEqualTo,3,1,1,98,0,,
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,isNotEqualTo,23,6,2,112,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject; com.google.common.truth.MathUtil
+truth,com.google.common.truth,PrimitiveDoubleArraySubject,asList,3,1,0,146,0,com.google.common.truth.PrimitiveDoubleArraySubject,com.google.common.truth.PrimitiveDoubleArraySubject
+truth,com.google.common.truth,SubjectUtils,accumulate,3,1,1,30,0,,
+truth,com.google.common.truth,SubjectUtils,accumulate,11,2,2,34,0,,
+truth,com.google.common.truth,SubjectUtils,accumulate,12,2,3,45,0,,
+truth,com.google.common.truth,SubjectUtils,countOf,9,3,2,60,0,,
+truth,com.google.common.truth,SubjectUtils,countDuplicates,15,4,1,70,0,com.google.common.truth.SubjectUtils,com.google.common.truth.SubjectUtils
+truth,com.google.common.truth,MultimapSubject,MultimapSubject,3,1,2,49,0,,
+truth,com.google.common.truth,MultimapSubject,create,3,1,2,53,0,,
+truth,com.google.common.truth,MultimapSubject,isEmpty,5,2,0,60,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,isNotEmpty,5,2,0,69,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,hasSize,7,2,1,78,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,containsKey,5,2,1,89,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,doesNotContainKey,5,2,1,98,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,containsEntry,5,2,2,107,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,doesNotContainEntry,5,2,2,116,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,valuesForKey,3,1,1,125,0,,
+truth,com.google.common.truth,MultimapSubject,isEqualTo,12,3,1,139,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,containsExactly,4,1,1,161,0,com.google.common.truth.MultimapSubject,com.google.common.truth.MultimapSubject
+truth,com.google.common.truth,MultimapSubject,containsExactly,16,4,2,173,0,com.google.common.truth.MultimapSubject,com.google.common.truth.MultimapSubject; com.google.common.truth.Subject
+truth,com.google.common.truth,MultimapSubject,get,8,2,2,278,0,,
+truth,com.google.common.truth,MultimapSubject,difference,8,2,2,286,0,com.google.common.truth.MultimapSubject,com.google.common.truth.MultimapSubject
+truth,com.google.common.truth,MultimapSubject,difference,10,3,2,296,0,,
+truth,com.google.common.truth,MultimapSubject,countDuplicatesMultimap,11,2,1,307,0,,
+truth,com.google.common.truth,Truth,failComparing,3,1,3,74,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Truth,assert_,3,1,0,82,0,,
+truth,com.google.common.truth,Truth,assertWithMessage,3,1,1,86,0,com.google.common.truth.TestVerb,com.google.common.truth.TestVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertAbout,3,1,1,94,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,106,0,com.google.common.truth.TestVerb,com.google.common.truth.TestVerb; com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,110,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,114,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,118,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,123,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,127,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,131,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,135,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,139,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,143,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,147,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,153,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,157,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,161,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,165,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,169,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,173,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,177,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,181,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,185,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,189,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,193,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,199,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,205,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,211,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Truth,assertThat,3,1,1,217,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth,Subject,Subject,4,1,2,42,0,,
+truth,com.google.common.truth,Subject,internalCustomName,3,1,0,47,0,,
+truth,com.google.common.truth,Subject,named,4,1,1,51,0,,
+truth,com.google.common.truth,Subject,isNull,5,2,0,62,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNotNull,5,2,0,71,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isEqualTo,5,2,1,80,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNotEqualTo,5,2,1,89,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isSameAs,5,2,1,98,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNotSameAs,5,2,1,107,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isInstanceOf,13,4,1,116,0,com.google.common.truth.Platform,com.google.common.truth.Platform; com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNotInstanceOf,11,4,1,136,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.Platform
+truth,com.google.common.truth,Subject,isIn,5,2,1,154,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isAnyOf,6,2,3,163,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNotIn,6,2,1,173,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,isNoneOf,3,1,3,187,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,getSubject,3,1,0,194,0,,
+truth,com.google.common.truth,Subject,getDisplaySubject,8,2,0,198,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,check,3,1,0,206,0,,
+truth,com.google.common.truth,Subject,fail,3,1,1,214,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.Subject
+truth,com.google.common.truth,Subject,fail,12,3,2,223,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,fail,16,4,2,258,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,failWithBadResults,4,1,4,286,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,failWithCustomSubject,4,1,3,306,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,failWithoutSubject,4,1,1,324,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,failWithRawMessage,3,1,2,334,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,Subject,equals,3,1,1,350,0,,
+truth,com.google.common.truth,Subject,hashCode,3,1,0,362,0,,
+truth,com.google.common.truth,ListMultimapSubject,ListMultimapSubject,3,1,2,34,0,,
+truth,com.google.common.truth,ListMultimapSubject,create,3,1,2,38,0,,
+truth,com.google.common.truth,ListMultimapSubject,isEqualTo,3,1,1,45,0,,
+truth,com.google.common.truth,DefaultSubject,DefaultSubject,3,1,2,21,0,,
+truth,com.google.common.truth,LongSubject,LongSubject,3,1,2,29,0,,
+truth,com.google.common.truth,LongSubject,isEquivalentAccordingToCompareTo,3,1,1,33,0,,
+truth,com.google.common.truth,LongSubject,isEqualTo,3,1,1,41,0,,
+truth,com.google.common.truth,LongSubject,isNotEqualTo,3,1,1,45,0,,
+truth,com.google.common.truth,LongSubject,isEqualTo,3,1,1,49,0,com.google.common.truth.LongSubject,com.google.common.truth.LongSubject
+truth,com.google.common.truth,TableSubject,TableSubject,3,1,2,32,0,,
+truth,com.google.common.truth,TableSubject,isEmpty,5,2,0,36,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,isNotEmpty,5,2,0,45,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,hasSize,7,2,1,54,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,contains,5,2,2,65,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,doesNotContain,5,2,2,74,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,containsCell,6,2,3,83,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,doesNotContainCell,6,2,3,94,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,containsRow,5,2,1,105,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,containsColumn,5,2,1,114,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,TableSubject,containsValue,5,2,1,123,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveLongArraySubject,PrimitiveLongArraySubject,3,1,2,32,0,,
+truth,com.google.common.truth,PrimitiveLongArraySubject,underlyingType,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveLongArraySubject,listRepresentation,3,1,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveLongArraySubject,isEqualTo,15,3,1,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubject,isNotEqualTo,11,2,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveLongArraySubject,asList,3,1,0,80,0,com.google.common.truth.PrimitiveLongArraySubject,com.google.common.truth.PrimitiveLongArraySubject
+truth,com.google.common.truth,StringUtil,StringUtil,2,1,0,26,0,,
+truth,com.google.common.truth,StringUtil,messageFor,3,1,3,28,0,,
+truth,com.google.common.truth,StringUtil,format,26,5,2,37,0,,
+truth,com.google.common.truth,OptionalSubject,OptionalSubject,3,1,2,28,0,,
+truth,com.google.common.truth,OptionalSubject,isPresent,5,2,0,32,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,OptionalSubject,isAbsent,5,2,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,OptionalSubject,hasValue,14,4,1,50,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,ComparableSubject,3,1,2,29,0,,
+truth,com.google.common.truth,ComparableSubject,isIn,5,2,1,33,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,isNotIn,5,2,1,42,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,isEquivalentAccordingToCompareTo,5,2,1,51,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,comparesEqualTo,3,1,1,67,0,com.google.common.truth.ComparableSubject,com.google.common.truth.ComparableSubject
+truth,com.google.common.truth,ComparableSubject,isGreaterThan,5,2,1,81,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,isLessThan,5,2,1,90,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,isAtMost,5,2,1,99,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ComparableSubject,isAtLeast,5,2,1,108,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Expect,create,3,1,0,115,0,com.google.common.truth.Expect,com.google.common.truth.Expect
+truth,com.google.common.truth,Expect,create,3,1,1,119,0,,
+truth,com.google.common.truth,Expect,createAndEnableStackTrace,3,1,0,123,0,,
+truth,com.google.common.truth,Expect,Expect,4,1,1,127,0,,
+truth,com.google.common.truth,Expect,hasFailures,3,1,0,132,0,,
+truth,com.google.common.truth,Expect,getFailureStrategy,7,2,0,136,0,,
+truth,com.google.common.truth,Expect,apply,16,2,2,146,0,,
+truth,com.google.common.truth,Expect,evaluate,11,2,0,149,0,,
+truth,com.google.common.truth,IntegerSubject,IntegerSubject,3,1,2,31,0,,
+truth,com.google.common.truth,IntegerSubject,isEquivalentAccordingToCompareTo,3,1,1,35,0,,
+truth,com.google.common.truth,IntegerSubject,isEqualTo,3,1,1,43,0,,
+truth,com.google.common.truth,IntegerSubject,isNotEqualTo,3,1,1,47,0,,
+truth,com.google.common.truth,IntegerSubject,isEqualTo,3,1,1,51,0,,
+truth,com.google.common.truth,BigDecimalSubject,BigDecimalSubject,3,1,2,28,0,,
+truth,com.google.common.truth,BigDecimalSubject,isEqualToIgnoringScale,3,1,1,32,0,com.google.common.truth.BigDecimalSubject,com.google.common.truth.BigDecimalSubject
+truth,com.google.common.truth,BigDecimalSubject,isEqualToIgnoringScale,3,1,1,43,0,com.google.common.truth.BigDecimalSubject,com.google.common.truth.BigDecimalSubject
+truth,com.google.common.truth,BigDecimalSubject,isEqualToIgnoringScale,3,1,1,54,0,com.google.common.truth.BigDecimalSubject,com.google.common.truth.BigDecimalSubject
+truth,com.google.common.truth,BigDecimalSubject,isEqualTo,3,1,1,66,0,,
+truth,com.google.common.truth,BigDecimalSubject,isEquivalentAccordingToCompareTo,3,1,1,76,0,com.google.common.truth.BigDecimalSubject,com.google.common.truth.BigDecimalSubject
+truth,com.google.common.truth,BigDecimalSubject,compareValues,5,2,1,88,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveByteArraySubject,PrimitiveByteArraySubject,3,1,2,32,0,,
+truth,com.google.common.truth,PrimitiveByteArraySubject,underlyingType,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveByteArraySubject,listRepresentation,3,1,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveByteArraySubject,isEqualTo,15,3,1,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubject,isNotEqualTo,11,2,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveByteArraySubject,asList,3,1,0,80,0,com.google.common.truth.PrimitiveByteArraySubject,com.google.common.truth.PrimitiveByteArraySubject
+truth,com.google.common.truth,AbstractVerb,AbstractVerb,3,1,1,28,0,,
+truth,com.google.common.truth,AbstractVerb,getFailureStrategy,3,1,0,32,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,AbstractVerb,fail,3,1,0,38,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,AbstractVerb,fail,3,1,2,45,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,AbstractVerb,withFailureMessage,0,1,1,52,0,,
+truth,com.google.common.truth,AbstractVerb,getFailureMessage,0,1,0,62,0,,
+truth,com.google.common.truth,AbstractVerb,about,3,1,1,64,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,AbstractVerb,in,3,1,1,96,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,PrimitiveCharArraySubject,PrimitiveCharArraySubject,3,1,2,32,0,,
+truth,com.google.common.truth,PrimitiveCharArraySubject,underlyingType,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveCharArraySubject,listRepresentation,3,1,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveCharArraySubject,isEqualTo,15,3,1,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubject,isNotEqualTo,11,2,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveCharArraySubject,asList,3,1,0,80,0,com.google.common.truth.PrimitiveCharArraySubject,com.google.common.truth.PrimitiveCharArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,PrimitiveBooleanArraySubject,3,1,2,32,0,,
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,underlyingType,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,listRepresentation,3,1,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,isEqualTo,15,3,1,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,isNotEqualTo,11,2,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveBooleanArraySubject,asList,3,1,0,80,0,com.google.common.truth.PrimitiveBooleanArraySubject,com.google.common.truth.PrimitiveBooleanArraySubject
+truth,com.google.common.truth,FailureStrategy,fail,3,1,1,19,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy
+truth,com.google.common.truth,FailureStrategy,fail,12,2,2,23,0,,
+truth,com.google.common.truth,FailureStrategy,failComparing,3,1,3,37,0,com.google.common.truth.FailureStrategy,com.google.common.truth.FailureStrategy; com.google.common.truth.StringUtil
+truth,com.google.common.truth,BooleanSubject,BooleanSubject,3,1,2,26,0,,
+truth,com.google.common.truth,BooleanSubject,isEquivalentAccordingToCompareTo,3,1,1,30,0,,
+truth,com.google.common.truth,BooleanSubject,isTrue,5,2,0,38,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,BooleanSubject,isFalse,5,2,0,47,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.BooleanSubject
+truth,com.google.common.truth,BooleanSubject,booleanSubject,3,1,0,56,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Platform,Platform,2,1,0,34,0,,
+truth,com.google.common.truth,Platform,isInstanceOfType,3,1,2,36,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,isInstanceOfTypeJava,3,1,2,43,0,,
+truth,com.google.common.truth,Platform,isInstanceOfTypeGWT,12,3,2,52,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,addInterfaceNames,6,2,2,69,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,addTypeNames,6,2,2,76,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,compressType,20,3,1,85,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,typeOnly,5,1,1,113,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,stripIfPrefixed,3,1,2,119,0,,
+truth,com.google.common.truth,Platform,stripIfInPackage,6,2,2,123,0,,
+truth,com.google.common.truth,Platform,comparisonFailure,3,1,3,132,0,,
+truth,com.google.common.truth,Platform,matches,3,1,2,136,0,,
+truth,com.google.common.truth,Platform,containsMatch,3,1,2,143,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubject,PrimitiveFloatArraySubject,3,1,2,37,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubject,underlyingType,3,1,0,41,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubject,listRepresentation,3,1,0,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isEqualTo,3,1,1,51,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isEqualTo,24,6,2,65,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isNotEqualTo,3,1,1,98,0,,
+truth,com.google.common.truth,PrimitiveFloatArraySubject,isNotEqualTo,23,6,2,112,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveFloatArraySubject,asList,3,1,0,142,0,com.google.common.truth.PrimitiveFloatArraySubject,com.google.common.truth.PrimitiveFloatArraySubject
+truth,com.google.common.truth,Platform,Platform,2,1,0,33,0,,
+truth,com.google.common.truth,Platform,isInstanceOfType,3,1,2,35,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,isInstanceOfTypeGWT,11,3,2,42,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth,Platform,addTypeNames,5,2,2,59,0,,
+truth,com.google.common.truth,Platform,compressType,3,1,1,66,0,,
+truth,com.google.common.truth,Platform,comparisonFailure,3,1,3,73,0,,
+truth,com.google.common.truth,Platform,matches,4,1,2,77,0,,
+truth,com.google.common.truth,Platform,containsMatch,3,1,2,85,0,,
+truth,com.google.common.truth,MapSubject,MapSubject,3,1,2,36,0,,
+truth,com.google.common.truth,MapSubject,isEqualTo,27,8,1,40,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,isEmpty,5,2,0,71,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,isNotEmpty,5,2,0,80,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,hasSize,7,2,1,89,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,containsKey,5,2,1,100,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,doesNotContainKey,5,2,1,109,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,containsEntry,6,2,2,118,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MapSubject,doesNotContainEntry,6,2,2,128,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveIntArraySubject,PrimitiveIntArraySubject,3,1,2,32,0,,
+truth,com.google.common.truth,PrimitiveIntArraySubject,underlyingType,3,1,0,36,0,,
+truth,com.google.common.truth,PrimitiveIntArraySubject,listRepresentation,3,1,0,41,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,PrimitiveIntArraySubject,isEqualTo,15,3,1,46,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubject,isNotEqualTo,11,2,1,67,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.AbstractArraySubject
+truth,com.google.common.truth,PrimitiveIntArraySubject,asList,3,1,0,80,0,com.google.common.truth.PrimitiveIntArraySubject,com.google.common.truth.PrimitiveIntArraySubject
+truth,com.google.common.truth,IteratingVerb,load,3,1,1,43,0,com.google.common.truth.IteratingVerb,com.google.common.truth.IteratingVerb
+truth,com.google.common.truth,IteratingVerb,IteratingVerb,4,1,2,52,0,,
+truth,com.google.common.truth,IteratingVerb,thatEach,3,1,1,57,0,com.google.common.truth.IteratingVerb,com.google.common.truth.IteratingVerb
+truth,com.google.common.truth,IteratingVerb,wrap,11,1,3,62,0,com.google.common.truth.SubjectFactory,com.google.common.truth.SubjectFactory; com.google.common.truth.IteratingVerb
+truth,com.google.common.truth,IteratingVerb,instantiate,18,1,5,74,0,,
+truth,com.google.common.truth,IteratingVerb,compileWrapperClass,18,1,1,91,0,com.google.common.truth.codegen.IteratingWrapperClassBuilder,com.google.common.truth.codegen.IteratingWrapperClassBuilder; com.google.common.truth.SubjectFactory
+truth,com.google.common.truth,TestVerb,TestVerb,3,1,1,36,0,,
+truth,com.google.common.truth,TestVerb,TestVerb,4,1,2,40,0,,
+truth,com.google.common.truth,TestVerb,that,5,1,1,45,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,49,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,53,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,57,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,62,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,66,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,70,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,74,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,78,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,82,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,86,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject; com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,91,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,95,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,99,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,103,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,107,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,111,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,115,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,119,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,123,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,127,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,131,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,137,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,143,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,149,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,that,3,1,1,154,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,withFailureMessage,3,1,1,158,0,com.google.common.truth.AbstractVerb,com.google.common.truth.AbstractVerb
+truth,com.google.common.truth,TestVerb,getFailureMessage,3,1,0,163,0,,
+truth,com.google.common.truth,ClassSubject,ClassSubject,3,1,2,29,0,,
+truth,com.google.common.truth,ClassSubject,isAssignableTo,5,2,1,33,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,ReflectionUtil,ReflectionUtil,2,1,0,30,0,,
+truth,com.google.common.truth,ReflectionUtil,typeParameter,8,2,2,32,0,,
+truth,com.google.common.truth,MultisetSubject,MultisetSubject,3,1,2,31,0,,
+truth,com.google.common.truth,MultisetSubject,create,3,1,2,35,0,,
+truth,com.google.common.truth,MultisetSubject,hasCount,7,2,2,42,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,Ordered,inOrder,0,1,0,20,0,,
+truth,com.google.common.truth,SetMultimapSubject,SetMultimapSubject,3,1,2,32,0,,
+truth,com.google.common.truth,SetMultimapSubject,create,3,1,2,36,0,,
+truth,com.google.common.truth,SetMultimapSubject,isEqualTo,3,1,1,45,0,,
+truth,com.google.common.truth,IterableSubject,create,3,1,2,49,0,,
+truth,com.google.common.truth,IterableSubject,IterableSubject,3,1,2,56,0,,
+truth,com.google.common.truth,IterableSubject,isEmpty,5,2,0,60,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,isNotEmpty,5,2,0,69,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,hasSize,7,2,1,82,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,contains,5,2,1,93,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,doesNotContain,5,2,1,103,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,containsNoDuplicates,11,4,0,113,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,containsAnyOf,3,1,3,128,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsAnyIn,3,1,1,137,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsAny,15,4,2,145,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,containsAllOf,3,1,3,166,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsAllIn,3,1,1,179,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsAll,26,5,2,191,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,moveElements,5,2,3,222,0,,
+truth,com.google.common.truth,IterableSubject,containsExactly,4,1,1,232,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsExactlyElementsIn,3,1,1,250,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsExactly,43,11,3,264,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,failWithBadResultsAndSuffix,3,1,5,358,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,containsNoneOf,3,1,3,379,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsNoneIn,3,1,1,388,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,containsNone,11,4,2,396,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,IterableSubject,inOrder,2,1,0,431,0,,
+truth,com.google.common.truth,IterableSubject,isStrictlyOrdered,3,1,0,435,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,isStrictlyOrdered,11,2,1,447,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,check,5,2,2,458,0,,
+truth,com.google.common.truth,IterableSubject,isOrdered,3,1,0,467,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,isPartiallyOrdered,3,1,0,479,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,isOrdered,11,2,1,487,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,check,5,2,2,497,0,,
+truth,com.google.common.truth,IterableSubject,isPartiallyOrdered,3,1,1,506,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject
+truth,com.google.common.truth,IterableSubject,pairwiseCheck,11,3,1,518,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth,MathUtil,MathUtil,2,1,0,22,0,,
+truth,com.google.common.truth,MathUtil,equals,3,1,3,24,0,,
+truth,com.google.common.truth,MathUtil,equals,3,1,3,28,0,com.google.common.truth.MathUtil,com.google.common.truth.MathUtil
+truth,com.google.common.truth,MathUtil,notEquals,3,1,3,32,0,,
+truth,com.google.common.truth,MathUtil,notEquals,3,1,3,36,0,com.google.common.truth.MathUtil,com.google.common.truth.MathUtil
+truth,com.google.common.truth.extension,EmployeeSubject,assertThat,3,1,1,32,0,,
+truth,com.google.common.truth.extension,EmployeeSubject,employee,3,1,0,37,0,,
+truth,com.google.common.truth.extension,EmployeeSubject,getSubject,3,1,2,44,0,,
+truth,com.google.common.truth.extension,EmployeeSubject,EmployeeSubject,3,1,2,50,0,,
+truth,com.google.common.truth.extension,EmployeeSubject,hasName,5,2,1,56,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.extension,EmployeeSubject,hasUsername,5,2,1,62,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.extension,EmployeeSubject,hasId,5,2,1,68,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.extension,EmployeeSubject,hasLocation,5,2,1,74,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.extension,EmployeeTest,testEmployee,8,1,0,34,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth.extension,Employee,create,3,1,4,25,0,,
+truth,com.google.common.truth.extension,Employee,username,0,1,0,29,0,,
+truth,com.google.common.truth.extension,Employee,id,0,1,0,31,0,,
+truth,com.google.common.truth.extension,Employee,name,0,1,0,33,0,,
+truth,com.google.common.truth.extension,Employee,location,0,1,0,35,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,getModuleName,3,1,0,39,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,testBuildClasses,3,1,0,43,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,testBoolean,10,1,0,47,0,com.google.common.truth.BooleanSubject,com.google.common.truth.BooleanSubject
+truth,com.google.common.truth.gwt,TruthGwtTest,testInteger,10,1,0,58,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testString,12,1,0,68,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testString_match,8,1,0,81,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject
+truth,com.google.common.truth.gwt,TruthGwtTest,testString_matchesFail,9,1,0,90,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testString_containsMatchFail,9,1,0,99,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testString_doesNotMatchFail,9,1,0,108,0,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testString_doesNotContainMatchFail,9,1,0,117,0,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testIterable,3,1,0,126,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,testCollection,3,1,0,130,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,testList,3,1,0,134,0,,
+truth,com.google.common.truth.gwt,TruthGwtTest,testObjectArray,4,1,0,138,0,com.google.common.truth.IterableSubject,com.google.common.truth.IterableSubject; com.google.common.truth.ObjectArraySubject
+truth,com.google.common.truth.gwt,TruthGwtTest,testDefault,4,1,0,143,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.gwt,TruthGwtTest,testLegacyAssert_,4,1,0,148,0,com.google.common.truth.Subject,com.google.common.truth.Subject; com.google.common.truth.Truth
+truth,com.google.common.truth.gwt,TruthGwtTest,testInvokePlatformMethods,3,1,0,153,0,com.google.common.truth.Platform,com.google.common.truth.Platform
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_PlainClass,10,1,0,84,1,com.google.common.truth.codegen.IteratingWrapperClassBuilder,com.google.common.truth.codegen.IteratingWrapperClassBuilder; com.google.common.truth.StringSubject
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_InnerClass,10,1,0,96,1,com.google.common.truth.codegen.IteratingWrapperClassBuilder,com.google.common.truth.codegen.IteratingWrapperClassBuilder; com.google.common.truth.StringSubject
+truth,com.google.common.truth.codegen,BarSubject,getSubject,3,1,2,30,0,,
+truth,com.google.common.truth.codegen,BarSubject,BarSubject,3,1,2,36,0,,
+truth,com.google.common.truth.codegen,BarSubject,startsWith,5,2,1,40,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.codegen,CompilingClassLoader,CompilingClassLoader,6,2,4,108,0,com.google.common.truth.codegen.CompilingClassLoader,com.google.common.truth.codegen.CompilingClassLoader
+truth,com.google.common.truth.codegen,CompilingClassLoader,findClass,7,2,1,126,0,,
+truth,com.google.common.truth.codegen,CompilingClassLoader,compileSourceCodeToByteCode,10,1,3,139,0,,
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,IteratingWrapperClassBuilder,4,1,1,117,0,com.google.common.truth.SubjectFactory,com.google.common.truth.SubjectFactory
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,build,11,2,0,122,0,com.google.common.truth.SubjectFactory,com.google.common.truth.SubjectFactory; com.google.common.truth.ReflectionUtil; com.google.common.truth.codegen.IteratingWrapperClassBuilder
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,appendMethodWrapper,7,2,4,142,0,com.google.common.truth.codegen.IteratingWrapperClassBuilder,com.google.common.truth.codegen.IteratingWrapperClassBuilder
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,methodParameterList,8,3,1,164,0,,
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,methodSignature,14,5,2,173,0,,
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilder,stringVisibility,11,3,1,189,0,,
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThat,3,1,0,33,1,,
+truth,com.google.common.truth.delegation,DelegationTest,assertAboutThatFailure,11,1,0,38,1,com.google.common.truth.StringSubject,com.google.common.truth.StringSubject; com.google.common.truth.Truth
+truth,com.google.common.truth.delegation,DelegationTest,customTypeProposition,3,1,0,50,1,com.google.common.truth.Truth,com.google.common.truth.Truth
+truth,com.google.common.truth.delegation,DelegationTest,customTypePropositionWithFailure,11,1,0,58,1,com.google.common.truth.Truth,com.google.common.truth.Truth; com.google.common.truth.StringSubject
+truth,com.google.common.truth.delegation,Foo,Foo,3,1,1,27,0,,
+truth,com.google.common.truth.delegation,Foo,toString,3,1,0,31,0,,
+truth,com.google.common.truth.delegation,FooSubject,getSubject,3,1,2,35,0,,
+truth,com.google.common.truth.delegation,FooSubject,foo,3,1,0,41,0,,
+truth,com.google.common.truth.delegation,FooSubject,FooSubject,3,1,2,46,0,,
+truth,com.google.common.truth.delegation,FooSubject,matches,5,2,1,50,0,com.google.common.truth.Subject,com.google.common.truth.Subject
+truth,com.google.common.truth.delegation,FooSubject,matchesAny,8,3,1,56,0,com.google.common.truth.Subject,com.google.common.truth.Subject

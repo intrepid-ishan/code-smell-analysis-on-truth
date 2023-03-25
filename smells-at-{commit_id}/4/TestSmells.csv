@@ -1,0 +1,411 @@
+Project Name,Package Name,Type Name,Method Name,Test Smell,Cause of the Smell
+truth,com.google.common.truth,ExpectFailureWithStackTraceTest,expectTwoFailures,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectFactoryReflectionTest,genericErasureWorkaround,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TruthAssertThatTest,staticAssertThatMethodsMatchTestVerbInstanceMethods,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TruthAssertThatTest,festAlike,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveCharArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,SubjectTest,nullPointerTester,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,allAssertThatOverloadsAcceptNull,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,SubjectTest,allAssertThatOverloadsAcceptNull,Conditional test logic,The tool detected the smell in this test method because the test wraps the assert statements within control flow statements.
+truth,com.google.common.truth,SubjectTest,isSameAsWithNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isSameAsWithSameObject,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithObjects,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithComparableObjects,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotSameAsWithDifferentTypesAndSameToString,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isEqualToWithNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isEqualToWithSameObject,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isEqualToWithComparableObjects,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithObjects,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithComparableObjects,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotEqualToWithDifferentTypesAndSameToString,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isInstanceOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotInstanceOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isIn,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isInJustTwo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isInNullInListWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isInNonnullInListWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isAnyOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isAnyOfJustTwo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isAnyOfNullInListWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isAnyOfNonnullInListWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotIn,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotInNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNotInEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNoneOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,isNoneOfNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,SubjectTest,throwableHasInitedCause,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrepended,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageIsPrependedWithNamed,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,CustomFailureMessageTest,assertWithMessageThat,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,AbstractVerbTest,noArgFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterationOverSubjectTest,collectionPropositionWithMultipleArguments,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,LongTest,simpleEquality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,LongTest,longIsLong,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,LongTest,simpleInequality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,LongTest,equalityOfNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,LongTest,equalityOfNullsFail,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,LongTest,inequalityOfNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,isGreaterThan,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,ComparableSubjectTest,isLessThan,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,ComparableSubjectTest,longs,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,strings,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,booleans,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,comparableType,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,namedComparableType,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ComparableSubjectTest,rawComparableType,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_parent,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversed,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ClassTest,testIsAssignableTo_reversedDifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,BigDecimalTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,BigDecimalTest,isEquivalentAccordingToCompareTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,AbstractArraySubjectTest,foo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExampleTest,stringContains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExampleTest,listHasElements,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExampleTest,expectRange,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,simpleEquality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,intIsInt,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,simpleInequality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,equalityOfNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,equalityOfNullsFail,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,IntegerTest,inequalityOfNulls,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IntegerTest,primitives,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 4
+truth,com.google.common.truth,IntegerTest,boxedPrimitives,Eager test,The tool detected the smell in this test method because the test checks the results of more than one method from class under test. The called methods are: com.google.common.truth.BooleanSubject.isFalse; com.google.common.truth.IntegerSubject.isNotEqualTo; com.google.common.truth.LongSubject.isNotEqualTo
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,IntegerTest,mixedBoxedAndUnboxedPrimitives,Eager test,The tool detected the smell in this test method because the test checks the results of more than one method from class under test. The called methods are: com.google.common.truth.BooleanSubject.isFalse; com.google.common.truth.IntegerSubject.isNotEqualTo; com.google.common.truth.LongSubject.isNotEqualTo
+truth,com.google.common.truth,TableTest,tableIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,tableIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,hasSize,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,hasSizeZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,contains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,doesNotContain,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,containsCell,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,TableTest,doesNotContainCell,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,BooleanTest,isTrue,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,BooleanTest,isFalse,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage_null,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage_failure,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage_failure,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ThrowableTest,hasMessage_MessageHasNullMessage_failure,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage_MessageHasNullMessage_failure,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ThrowableTest,hasMessage_NullMessageHasMessage_failure,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,hasMessage_NullMessageHasMessage_failure,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ThrowableTest,inheritedMethodChainsSubject,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ThrowableTest,inheritedMethodChainsSubject,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ExpectFailureTest,expectFailNotEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectFailureTest,expectFailStringContains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectFailureTest,expectFailContainsAllOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectFailureTest,expectFailContainsAnyOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLength,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,hasLengthNegative,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveIntArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveBooleanArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,OptionalSubjectTest,isPresent,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,OptionalSubjectTest,isAbsent,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,OptionalSubjectTest,hasValue,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Default_Fail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_Default_Fail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveDoubleArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLength,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,hasLengthNegative,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayAsList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalLength,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalLength,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,stringArrayIsEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,ObjectArraySubjectTest,SetArrayIsEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ObjectArraySubjectTest,SetArrayIsEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,MathUtilTest,floatEquality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MathUtilTest,doubleEquality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MathUtilTest,doubleEqualityDifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,hasSize,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,hasSizeZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,failureMessageIterableContainsFailure,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,IterableTest,iterableDoesNotContain,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableDoesNotContainNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicates,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,doesNotContainDuplicatesMixedTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithNullInThirdAndFinalPosition,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAnyOfWithOneShotIterable,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithMany,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithDuplicates,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfWithNullAtThirdAndFinalPosition,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithGaps,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsAllOfInOrderWithOneShotIterable,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsNoneOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,arrayContainsExactly,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithMany,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyOutOfOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicates,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithDuplicatesOutOfOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithOnlyNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullSecond,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullThird,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyWithNullOutOfOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableContainsExactlyInOrderWithOneShotIterable,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrdered,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsOrdered,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsStrictlyOrderedWithComparator,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableIsOrderedWithComparator,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,IterableTest,iterableOrderedByBaseClassComparator,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,multimapIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,multimapIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,hasSize,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,hasSizeZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsKeyNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,doesNotContainKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,doesNotContainEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,valuesForKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,valuesForKeyListMultimap,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsExactly,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsExactlyEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsExactlyRespectsDuplicates,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrder,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultimapTest,containsExactlyInOrderDifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveLongArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectTest,expectTrue,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectTest,expectFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,ExpectTest,warnWhenExpectIsNotRule,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapIsEqualToPass,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,hasSize,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,hasSizeZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,containsKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,containsNullKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,doesNotContainKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,containsEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,containsNullEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,doesNotContainEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,doesNotContainNullEntry,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapContainsKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapLacksKey,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapContainsKeyWithValue,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MapTest,mapContainsKeyWithNullValueNullExpected,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,multisetIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,multisetIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,hasSize,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,hasSizeZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,hasCount,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,contains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,containsNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,MultisetTest,doesNotContain,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,hasLength,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,hasLengthZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringIsEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringIsEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringIsEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringIsNotEmpty,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringIsNotEmptyFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringIsNotEmptyFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringContains,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsCharSeq,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringDoesNotContain,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainCharSequence,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringEquality,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringEqualityToNull,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringEqualityToNull,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringEqualityFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringEqualityFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringNamedEqualityFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringNamedEqualityFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringStartsWith,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringStartsWithFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringStartsWithFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringEndsWith,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringEndsWithFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringEndsWithFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,emptyStringTests,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringMatchesString,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringMatchesStringWithFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringMatchesStringWithFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringMatchesPattern,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringMatchesPatternWithFail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringMatchesPatternWithFail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringContainsMatchStringUsesFind,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsMatchString,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsMatchString,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringContainsMatchPattern,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringContainsMatchPattern,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchString,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchString,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchStringUsesFind,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchStringUsesFind,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchPattern,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,StringTest,stringDoesNotContainMatchPattern,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Superclass,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_Java_Interface,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Superclass,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,testIsInstanceOfType_GWT_Interface,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_JavaLang,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_JavaUtil,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_Generic,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_Uncompressed,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_GenericWithPartialUncompress,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PlatformTest,compressType_Primitive,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Same,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,asList,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveByteArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Default_Fail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_UnequalOrdering,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isEqualTo_Fail_NotAnArray,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_Default_Fail,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_SameLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentLengths,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_DifferentTypes,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailEquals,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailSame,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,PrimitiveFloatArraySubjectTest,isNotEqualTo_FailSame,Exceptional handling,The tool detected the smell in this test method because the test throws exception(s) from test (rather than using assertThrows method or expected annotation)
+truth,com.google.common.truth,DoubleTest,isWithinOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isNotWithinOf,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,negativeTolerances,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,nanTolerances,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,DoubleTest,infiniteTolerances,Assertion roulette,The tool detected the smell in this test method because the test uses multiple assertion in the test. Total number of assertions in the test are: 2
+truth,com.google.common.truth,DoubleTest,isWithinOfZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isWithinOfNaN,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isNotWithinOfNaN,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isNotWithinOfZero,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isPositiveInfinity,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isNegativeInfinity,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth,DoubleTest,isNaN,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth.extension,EmployeeTest,testEmployee,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_PlainClass,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth.codegen,IteratingWrapperClassBuilderTest,testSubjectWrapperGeneration_InnerClass,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth.delegation,DelegationTest,customTypeProposition,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
+truth,com.google.common.truth.delegation,DelegationTest,customTypePropositionWithFailure,Missing assertion,The tool detected the smell in this test method because the test doesn't have any assertion.
